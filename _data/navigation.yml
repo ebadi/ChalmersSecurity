@@ -1,12 +1,12 @@
-- title: Start
+- title: Chalmers Security Group
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: right
+# - title: Home
+#  url: "/"
+#  side: right
 
-- title: "Templates"
+- title: Research Areas
   url: "/design/"
   side: right
   dropdown:
@@ -31,7 +31,7 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "Projects"
   url: "/headers/"
   side: right
   dropdown:
@@ -50,7 +50,14 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: News
+  url: "/blog/"
+  side: right
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: Publications
   url: "/documentation/"
   side: right
   dropdown:
@@ -59,17 +66,21 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
-  url: "/blog/"
+
+- title: People
+  url: "/documentation/"
   side: right
   dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
 
-- title: "Search"
+
+- title: Courses & Other Activities
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Contact us"
   url: "/contact/"
   side: right
