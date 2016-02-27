@@ -25,6 +25,7 @@ assets/img/Chalmers_white.png
 https://www.chalmers.se/sv/centrum/graphene/organisation/Sidor/default.aspx
 images/Chalmersplatsen_690x330px.jpg
 
+
 assets/icons/* are taken from https://github.com/jglovier/resume-template
 
 ResearchGate icon
@@ -41,3 +42,7 @@ GU logo are taken from http://bildbank.gu.se/logotyperochmallar/
 assets/img/gu.jpg
 assets/img/LO_GUeng_cenRGB.jpg
 assets/img/LO_GUeng_cenSV.jpg
+
+
+TODO:
+[1] change the top menu from uppercase-forced to normal

@@ -7,78 +7,40 @@
 #  side: right
 
 - title: Research Areas
-  url: "/design/"
+  url: "/research/"
   side: right
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "News"
-    url: "/news/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+  - title: "Cryptography"
+    url: "/research/cryptography/"
+  - title: "Privacy"
+    url: "/research/privacy/"
+  - title: "Car Security"
+    url: "/research/carsecurity/"
 
 - title: "Projects"
-  url: "/headers/"
+  url: "/projects/"
   side: right
   dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+  - title: "Project A"
+    url: "/projects/A/"
+  - title: "Project B"
+    url: "/projects/B/"
+
 
 - title: News
-  url: "/blog/"
+  url: "/news/"
   side: right
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
-
+  
 - title: Publications
-  url: "/documentation/"
+  url: "/publications/"
   side: right
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
-
-
+ 
 - title: People
-  url: "/documentation/"
+  url: "/people/"
   side: right
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
-
 
 - title: Courses & Other Activities
-  url: "/search/"
+  url: "/courses/"
   side: right
 
 - title: "Contact us"
