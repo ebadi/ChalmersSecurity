@@ -57,7 +57,7 @@ gems:
     - jekyll-gist
     - jekyll-paginate
 paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+paginate_path: "news/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 
 
@@ -191,8 +191,8 @@ og_type:                            'website'
 #
 
 # socialmedia:
-#    twitter: 
-#    facebook: 
+#    twitter:
+#    facebook:
 
 
 #        ____  _
@@ -204,7 +204,7 @@ og_type:                            'website'
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+# disqus_shortname:
 
 
 #      _____
@@ -228,7 +228,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-# google_analytics_tracking_id: 
+# google_analytics_tracking_id:
 
 
 
