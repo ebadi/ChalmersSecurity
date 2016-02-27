@@ -1,0 +1,13 @@
+- title: Dynamic Enforcement of Differential Privacy
+  filename: "licentiate.pdf"
+  date:
+  auther:
+  - x: hamid
+  summary: " Short text here "
+
+- title: Differential Privacy, Now it’s Getting Personal
+  filename: "popl-2015.pdf"
+  bib: "xx.bib"
+  date:
+  auther:
+  summary: " Differential privacy provides a way to get useful information about sensitive data without revealing much about any one individual. It enjoys many nice compositionality properties not shared by other approaches to privacy, including, in particular, robustness against side-knowledge. Designing differentially private mechanisms from scratch can be  a  challenging  task.  One  way  to  make  it  easier  to  construct new differential private mechanisms is to design a system which allows  more  complex  mechanisms  (programs)  to  be  built  from differentially private building blocks in principled way, so that the resulting  programs  are  guaranteed  to  be  differentially  private  by construction. "

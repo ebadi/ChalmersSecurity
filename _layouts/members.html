@@ -1,0 +1,63 @@
+---
+layout: default
+format: post
+---
+<div class="row t30">
+	<div class="medium-8 columns medium-push-4">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				<div itemprop="name">
+					<h1>{{ page.title }}</h1>
+				</div>
+			</header>
+
+			{% if page.teaser %}
+			<p class="teaser" itemprop="description">
+				{{ page.teaser }}
+			</p>
+			{% endif %}
+
+			<div itemprop="articleSection">
+			{{ content }}
+			</div>
+
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	<div class="medium-4 columns medium-pull-8">
+		<aside>
+			<div class="border-dotted radius b30">
+				{% if page.cid %}
+				<figure>
+					<img src="{{ site.urlimg }}members/{{ page.cid }}.jpg" width="970" alt="{{ page.title escape_once }}" itemprop="image">
+
+					{% if page.image.caption_url && page.image.caption %}
+					<figcaption class="text-right">
+						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+					</figcaption>
+					{% elsif page.image.caption %}
+					<figcaption class="text-right">
+						{{ page.image.caption }}
+					</figcaption>
+					{% endif %}
+				</figure>
+				{% endif %}
+
+					</p>{% if page.email %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-email.svg" width="25" height="25"> Email: {{ page.email}} {% endif %}</p>
+				</p>{% if page.telephone %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-telephone.svg" width="25" height="25"> Telephone: {{ page.telephone}} {% endif %}</p>
+				  <p>{% if page.address %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-address.svg" width="25" height="25"> Address: {{ page.address}} {% endif %}</p>
+
+				<p class="text-left">
+					{% if page.website %}<a href="{{ page.website }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-website.svg" width="50" height="50"></a>{% endif %}
+					{% if page.github %}<a href="{{ page.github }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-github.svg" width="50" height="50"></a>{% endif %}
+					{% if page.linkedin %}<a href="{{ page.linkedin }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-linkedin.svg" width="50" height="50"></a>{% endif %}
+					{% if page.researchgate %}<a href="{{ page.researchgate }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-researchgate.png" width="50" height="50"></a>{% endif %}
+					{% if page.googlescholar %}<a href="{{ page.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
+
+				</p>
+			</div>
+		</aside>
+	</div><!-- /.medium-4.columns -->
+
+</div><!-- /.row -->
