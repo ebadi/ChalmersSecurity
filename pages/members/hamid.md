@@ -21,7 +21,3 @@ googlescholar: "https://scholar.google.com/citations?user=pkE1HVoAAAAJ"
 ---
 I am a PhD student in the Computer Science and Engineering department in the Software Technology division at Chalmers University of Technology since 2013.
 I received my master's degree in Secure and Dependable Computer Systems from the same university. I am currently doing research under the supervision of Prof. David Sands.
-
-## Publications
-{: .t60 }
-{% include list-posts tag='post format' %}
