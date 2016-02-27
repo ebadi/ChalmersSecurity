@@ -23,3 +23,8 @@ assets/img/Chalmers_black.png
 assets/img/Chalmers_white.png
 https://www.chalmers.se/sv/centrum/graphene/organisation/Sidor/default.aspx
 images/Chalmersplatsen_690x330px.jpg
+
+
+
+TODO:
+[1] change the top menu from uppercase-forced to normal
