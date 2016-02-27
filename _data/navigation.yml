@@ -4,11 +4,11 @@
 
 - title: Getting Started
   url: "/getting-started/"
-  side: left
+  side: right
 
 - title: "Templates"
   url: "/design/"
-  side: left
+  side: right
   dropdown:
   - title: "Grid & Colors"
     url: "/design/grid/"
@@ -22,8 +22,8 @@
     url: "/design/post-right-sidebar/"
   - title: "Page Full-Width"
     url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
+  - title: "News"
+    url: "/news/"
   - title: "Video"
     url: "/design/video/"
   - title: "Gallery"
@@ -33,7 +33,7 @@
 
 - title: "Header Styles"
   url: "/headers/"
-  side: left
+  side: right
   dropdown:
   - title: "Header with Full-Width-Image"
     url: "/design/header-full-width-image/"
@@ -52,7 +52,7 @@
 
 - title: Documentation
   url: "/documentation/"
-  side: left
+  side: right
   dropdown:
   - title: "Changelog"
     url: "/changelog/"
@@ -61,7 +61,7 @@
 
 - title: Blog
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
   - title: "Blog Archive"
     url: "/blog/archive/"
