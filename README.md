@@ -36,7 +36,7 @@ Google scholar, researchgate png:
 https://github.com/jpswalsh/academicons
 https://github.com/FortAwesome
 
-All images in /imaages/members are protected.
+All images in /images/people are protected.
 
 GU logo are taken from http://bildbank.gu.se/logotyperochmallar/
 assets/img/gu.jpg

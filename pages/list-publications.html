@@ -1,0 +1,31 @@
+---
+layout: page
+title: "All publications"
+teaser: "Check out all publications. Click on a headline to read the teaser and downalod the full article."
+breadcrumb: true
+header:
+   image_fullwidth: header_unsplash_8.jpg
+permalink: "publications"
+---
+<div itemprop="name">
+<ul class="side-nav">
+  <dl class="accordion" data-accordion>
+  {% assign counter = 1 %}
+
+  {% for publication in site.data.publications %}
+    {% unless publication.published == false %}
+        {% assign counter=counter | plus:1 %}
+        <dd class="accordion-navigation">
+        <a href="#panel{{ counter }}"><span class="iconfont"></span> <strong>{{ publication.title }}</strong></a>
+          <div id="panel{{ counter }}" class="content">
+            {% if publication.summary %}{{ publication.summary | strip_html | escape }}{% endif %}
+            <a href="{{ site.url }}/pdf/{{ publication.pdffile }}" title="Read {{ publication.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
+          </div>
+        </dd>
+    {% endunless %}
+  {% endfor %}
+  </dl>
+
+
+</ul>
+</div>

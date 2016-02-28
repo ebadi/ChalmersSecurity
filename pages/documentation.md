@@ -315,7 +315,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 </div><!-- /.row -->
 
  [1]: http://kramdown.gettalong.org/converter/html.html#toc
- [2]: {{ site.url }}/blog/
+ [2]: {{ site.url }}/news/
  [3]: http://srobbin.com/jquery-plugins/backstretch/
  [4]: #
  [5]: #

@@ -9,22 +9,31 @@ header:
   image_fullwidth: Chalmersplatsen_690x330px.jpg
 
 widget1:
-  title: "Blog & Portfolio"
-  url: ''
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Programming Language Security"
+  url: '{{ site.url }}/prolangsec'
+  video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  text: 'Using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
+and   encryption   do   not   directly   address   the   enforcement   of
+information-flow  policies.  Recently,  a  promising  new  approach
+has  been  developed:  the  use  of  programming-language  tech-
+niques  for  specifying  and  enforcing  information-flow  policies.
+In  this  article  we  survey  the  past  three  decades  of  research  on
+information-flow security, particularly focusing on work that uses
+static program  analysis  to enforce  information-flow policies. We
+give  a  structured  view  of  recent  work  in  the  area  and  identify
+some  important open challenges.'
 
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Cryptography and Authentication"
+  url: '{{ site.url }}/cryptography'
+  image: widget-1-302x182.jpg
+  text: 'Using cryptography methods to design distance bounding protocols '
 
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  title: "Computer Network Security"
+  url: ''
+  video: '<iframe src="https://player.vimeo.com/video/56874383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  text: 'Why is it possible to break into networked applications and computer systems? What weaknesses are used? And what makes one protocol more secure than another? This course answers these questions and many more. We look at weaknesses that have plagued wired and wireless networked systems for years and investigate the security of countermeasures like firewalls and security protocols such as SSL, SSH and IPsec. Knowledge about possible threats and countermeasures is important for understanding what level of security a system and an application can offer. '
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -42,4 +51,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-

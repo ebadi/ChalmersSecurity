@@ -1,15 +1,16 @@
 ---
-layout: members
+layout: people
 title:  "Hamid Ebadi"
 cid : hamid  # used for fetching user profile
 permalink: "/hamid/" # use the same as previous line here
 teaser: "I am a PhD student in the Computer Science and Engineering department in the Software Technology division at Chalmers University of Technology since 2013."
 breadcrumb: true
 categories:
-    - members
+    - people
+  
     ## choose one : phd, postdoc, retired, professor
 tags:
-    - members phd hamid dave elena
+    - phd
 website: http://www.cse.chalmers.se/~hamide/
 email: hamid.ebadi@gmail.com
 telephone: +46317721757
