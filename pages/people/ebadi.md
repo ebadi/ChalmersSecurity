@@ -1,13 +1,13 @@
 ---
 layout: people
 title:  "Hamid Ebadi"
-cid : hamid  # used for fetching user profile
-permalink: "/hamid/" # use the same as previous line here
+cid : ebadi  # This should be same as the one used in publications.yml, please also add images/people/CID.jpg
+permalink: "/ebadi/" # use the same as previous line here
 teaser: "I am a PhD student in the Computer Science and Engineering department in the Software Technology division at Chalmers University of Technology since 2013."
 breadcrumb: true
 categories:
     - people
-  
+
     ## choose one : phd, postdoc, retired, professor
 tags:
     - phd
