@@ -120,7 +120,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: hamid     # Default author for posts
+     # author: hamid     # Default author for posts
 
 
 
