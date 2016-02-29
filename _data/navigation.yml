@@ -21,8 +21,8 @@
   url: "/projects/"
   side: right
   dropdown:
-  - title: "Project A"
-    url: "/projects/A/"
+  - title: "Heavens"
+    url: "/heavens/"
   - title: "Project B"
     url: "/projects/B/"
 
