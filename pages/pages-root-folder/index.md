@@ -6,8 +6,8 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: Chalmersplatsen_690x330px.jpg
-
+  image_fullwidth: title.jpg
+  background-color: Red
 widget1:
   title: "Programming Language Security"
   url: '{{ site.url }}/prolangsec'

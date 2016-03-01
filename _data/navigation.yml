@@ -39,8 +39,8 @@
   url: "/people/"
   side: right
 
-- title: Courses & Other Activities
-  url: "/courses/"
+- title: Courses
+  url: "/secspec/"
   side: right
 
 - title: "Contact us"
