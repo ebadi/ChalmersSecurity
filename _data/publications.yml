@@ -1,23 +1,59 @@
-# Add to the beggining of this file
-# recent publications
-
-- title: Dynamic Enforcement of Differential Privacy
-  pdffile: "licentiate.pdf"
+- title: Towards a Taint Mode for Cloud Computing Web Applications
+  pdffile: "plas12.pdf"
+  year: 2012
   authers:
-  - ebadi
-  summary: " Short text here "
+  - lbello
+  - russo
+  summary: "Cloud computing is generally understood as the distribution of  data  and  computations  over  the  Internet.  Over  the  past years, there has been a steep increase in web sites using this technology. Unfortunately, those web sites are not exempted from injection flaws and cross-site scripting, two of the most common security risks in web applications. Taint analysis is an automatic approach to detect vulnerabilities. Cloud computing platforms possess several features that, while facilitating  the  development  of  web  applications,  make  it  difficult to apply off-the-shelf taint analysis techniques. More specifically, several of the existing taint analysis techniques do not deal with persistent storage (e.g. object datastores), opaque objects (objects whose implementation cannot be accessed and thus tracking tainted data becomes a challenge), or a rich set of security policies (e.g. forcing a specific order of sanitizers to be applied). We propose a taint analysis for could computing web applications that consider these aspects. Rather than modifying interpreters or compilers, we provide taint analysis via a Python library for the cloud computing platform Google App Engine (GAE). To evaluate the use of our library, we harden an existing GAE web application against cross-site scripting attacks. More information (here)[http://www.cse.chalmers.se/~russo/GAEtaintmode/]."
 
-- title: Differential Privacy, Now it’s Getting Personal
-  pdffile: "popl-2015.pdf"
+- title: Information-flow security for JavaScript and its APIs
+  pdffile: "jcs-jsflow.pdf"
   authers:
-  - ebadi
-  - sands
-  summary: " Differential privacy provides a way to get useful information about sensitive data without revealing much about any one individual. It enjoys many nice compositionality properties not shared by other approaches to privacy, including, in particular, robustness against side-knowledge. Designing differentially private mechanisms from scratch can be  a  challenging  task.  One  way  to  make  it  easier  to  construct new differential private mechanisms is to design a system which allows  more  complex  mechanisms  (programs)  to  be  built  from differentially private building blocks in principled way, so that the resulting  programs  are  guaranteed  to  be  differentially  private  by construction. "
+  - utter
+  - lbello
+  - andrei
+  summary: "JavaScript drives the evolution of the web into a powerful application platform. Increasingly, web applications combine services from different providers. The script inclusion mechanism routinely turns barebone web pages into full-fledged services built up from third-party code. Script inclusion poses a challenge of ensuring that the integrated third-party code respects security and privacy. This paper presents a dynamic mechanism for securing script executions by tracking information flow in JavaScript and its APIs. On the formal side, the paper identifies language constructs that constitute a core of JavaScript: dynamic objects, higher-order functions, exceptions, and dynamic code evaluation. It develops a dynamic type system that guarantees information-flow security for this language. Based on this formal model, the paper presents JSFlow, a practical security-enhanced interpreter for  fine-grained  tracking  of  information  flow  in  full  JavaScript  and  its  APIs.  Our  experiments  with  JSFlow  deployed  as  a browser extension provide in-depth understanding of information manipulation by third-party scripts. We find that different sites intended to provide similar services effectuate rather different security policies for the user’s sensitive information: some ensure it does not leave the browser, others share it with the originating server, while yet others freely propagate it to third parties. More information (here)[http://www.jsflow.net/]."
 
-- title: A publication by someone else
-  pdffile: "xxx.pdf"
+- title: Value-sensitive Hybrid Information Flow Control for a JavaScript-like Language
+  pdffile: "csf15-hybrid.pdf"
   authers:
-  - unknow
-  summary: "short"
+  - utter
+  - lbello
+  - andrei
+  year: 2015
+  summary: "Secure integration of third-party code is one of the prime challenges for securing today's web. Recent empirical studies give evidence of pervasive reliance on and excessive trust in third-party JavaScript, with no adequate security mechanism to limit the trust or the extent of its abuse. Information flow control is a promising approach for controlling the behavior of third-party code and enforcing confidentiality and integrity policies. While much progress has been made on static and dynamic approaches to information flow control, only recently their combinations have received attention. Purely static analysis falls short of addressing dynamic language features such as dynamic objects and dynamic code evaluation, while purely dynamic analysis suffers from inability to predict side effects in non-performed executions. This paper develops a value-sensitive hybrid mechanism for tracking information flow in a JavaScript-like language. The mechanism consists of a dynamic monitor empowered to invoke a static component on the fly. This enables us to achieve a sound yet permissive enforcement. We establish formal soundness results with respect to the security policy of noninterference. In addition, we demonstrate permissiveness by proving that we subsume the precision of purely static analysis and by presenting a collection of common programming patterns that indicate that our mechanism has potential to provide more permissiveness than dynamic mechanisms in practice. More information (here)[http://www.jsflow.net/hybrid/]."
 
-# Older publications here
+- title: Value Sensitivity and Observable Abstract Values for Information Flow Control
+  pdffile: "lpar15.pdf"
+  year: 2015
+  authers:
+  - lbello
+  - utter
+  - andrei
+  summary: "Much progress has recently been made on information flow control, enabling the enforcement of increasingly rich policies for increasingly expressive programming languages. This has resulted in tools for mainstream programming languages as JavaScript, Java, Caml, and Ada that enforce versatile security policies. However, a roadblock on the way to wider adoption of these tools has been their limited permissiveness (high false positives). Flow-, context-, and object-sensitive techniques have been suggested to improve the precision of static information flow control and dynamic monitors have been explored to leverage the knowledge about the current run for precision. This paper explores _value sensitivity_ to boost the permissiveness of information flow control. We show that both dynamic and hybrid information flow mechanisms benefit from value sensitivity. Further, we introduce the concept of _observable abstract values_ to generalize and leverage the power of value sensitivity to richer programming languages. We demonstrate the usefulness of the approach by comparing it to known disciplines for dealing with information flow in dynamic and hybrid settings. More information (here)[http://www.jsflow.net/valsens/]."
+
+- title: JSFlow: Tracking Information Flow in JavaScript and its APIs
+  pdffile: "sac14.pdf"
+  year: 2014
+  authers:
+  - utter
+  - arnarbi
+  - lbello
+  - andrei
+  summary: "JavaScript drives the evolution of the web into a powerful application platform. Increasingly, web applications combine
+services from different providers. The script inclusion mechanism routinely turns barebone web pages into full-fledged services built up from third-party code. Such code provides a range of facilities from helper utilities (such as jQuery) to readily available services (such as Google Analytics and Tynt). Script inclusion poses a challenge of ensuring that the integrated third-party code respects security and privacy. This paper presents JSFlow, a security-enhanced JavaScript interpreter for fine-grained tracking of information flow. We show how to resolve practical challenges for enforcing information-flow policies for the full JavaScript language, as well as tracking information in the presence of libraries, as provided by browser APIs. The interpreter is itself written
+in JavaScript, which enables deployment as a browser extension. Our experiments with the extension provide in-depth understanding of information manipulation by third-party scripts such as Google Analytics. We find that different sites intended to provide similar services effectuate rather different security policies for the user's sensitive information: some ensure it does not leave the browser, others share it with the originating server, while yet others freely propagate it to third parties. More information (here)[http://www.jsflow.net/]."
+
+- title: Information-Flow Tracking for Web Security
+  pdffile: "phd-luciano.pdf"
+  year: 2016
+  authers:
+  - lbello
+  summary: "The Web is evolving into a melting pot of content coming from multiple stakeholders. In this mutually distrustful setting, the combination of code and data from different providers demands new security approaches. This thesis explores information-flow control technologies to provide security for the current Web. With focus on practicality grounded in solid theoretical foundations, we aim to fulfill the demands with respect to security, permissiveness, and flexibility. We offer solutions for securing both the server and the client. On the server side, we suggest a taint analysis to track the information provided by the user. If the information reaches a sensitive operation without sanitization, we raise an alarm, mitigating potential exploitations. On the client side, we develop JSFlow, a JavaScript interpreter for tracking information flow in the browser. It covers the full ECMA-262 standard and browser APIs. The interpreter soundly guarantees non-interference, a policy to avoid information leaks to third-parties. A security mechanism is only practical if it is not overly restrictive. This means that it is not enough to reject all insecure programs; an enforcement should also allow the execution of as many secure programs as possible. Permissiveness is key to reduce the number of false alarms and increase the practicality of the mechanism. This thesis pushes the limit towards more permissive sound enforcements in two approaches: a runtime hybrid system and the introduction of the value-sensitivity concept. Finally, we study the trade-offs between security and flexibility. In some situations, non-interference is a too strong property and it can be relaxed depending on the attacker model. The contributions go from foundational results, such as the introduction of value-sensitivity, to practical tools, like JSFlow and a Python taint-analysis library."
+
+- title: Information-flow Tracking for Dynamic Languages
+  pdffile: "lic-luciano.pdf"
+  year: 2013
+  authers:
+  - lbello
+  summary: "This thesis explores information-flow tracking technologies and their applicability on industrial-scale dynamic programming languages. We aim to narrow the gap between the need for flexibility in current dynamic languages and the solid well-studied mechanisms from academia. Instead of translating perfect sound theoretical results into a practical implementation, this thesis focuses on practical problems found in dynamic languages and, from them on, looks for the academic support to tackle them. We investigate the compromise between security and flexibility for protecting confidentiality and integrity. Furthermore, using purely dynamic techniques, we implement our ideas to demonstrate their practicability. On the integrity protection side, a taint mode for Python has been implemented. Thanks to the flexibility of this language, the implementation is shipped as a library, allowing it to be used in Cloud Computing environments. On the confidentiality side, two works are presented which differ in their security property. On one hand, a dynamic dependency analysis is suggested as an alternative to flow-sensitive monitors. By relaxing the ambition of blocking every possible leak, we improve permissiveness, even for programming languages that support dynamic evaluation (such as the eval construct). On the other hand, a full JavaScript monitor was developed to enforce non-interference in the complex scenario of the web. This implementation allows us to explore the scalability boundaries of dynamic information-flow enforcements."

@@ -1,3 +1,33 @@
+sudo gem install nodejs
+sudo apt-get install ruby-dev
+sudo gem install jekyll
+
+
+### install ruby 2 : http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04
+
+/* Not tested :
+$ sudo apt-get install python-software-properties
+$ sudo apt-add-repository ppa:brightbox/ruby-ng
+$ sudo apt-get update
+$ sudo apt-get install ruby2.1 ruby-switch
+$ sudo ruby-switch --set ruby2.1
+*/
+
+/* Tested
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+source /home/user/.rvm/scripts/rvm
+rvm get stable
+rvm install 2.0.0
+*/
+
+sudo gem install rvm
+rvm get
+
+gem install jekyll
+gem install bundler
+gem install octopress
+
 
 bundle install
 bundle exec jekyll serve
