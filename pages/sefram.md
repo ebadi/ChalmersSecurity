@@ -2,7 +2,7 @@
 layout: page
 title: "Security Framework for Vehicles"
 teaser: "The purpose of the project is to analyze this area to find solutions to manage the risks. This will be achieved by developing communication- and security models to enable verifiable security for future vehicles. "
-permalink: sefram
+permalink: "/sefram/"
 ---
 
 The internal network of a car today consists of 50 to 100 computers communicating over an internal network, a size similar to an ordinary office. Vehicles use multiple interfaces for communication, they use different protocols and third party applications will soon be offered. The complexity of this problem needs a lot of attention with respect to security. Researchers have already shown that it is possible to attack vehicles, for example via the multimedia system in the car. This problem will become even more serious when vehicles begin to communicate with the outside world.
@@ -22,7 +22,3 @@ End of project: Q1 2016
 Financed by: Vinnova/FFI
 
 External partners at the project: Volvo Cars
-
-
-
-

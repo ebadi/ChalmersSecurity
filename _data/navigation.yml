@@ -13,9 +13,9 @@
   - title: "Language Based Security "
     url: "/lbsecurity"
   - title: "Cryptography"
-    url: "/research/cryptography/"
+    url: "/cryptography/"
   - title: "Vehicular Security"
-    url: "/research/carsecurity/"
+    url: "/vehicular"
 
 - title: "Projects"
   url: "/projects/"
@@ -51,4 +51,8 @@
 
 - title: "Contact us"
   url: "/contact/"
+  side: right
+
+- title: "About"
+  url: "/about/"
   side: right

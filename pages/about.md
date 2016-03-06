@@ -6,7 +6,9 @@ education in science, engineering, architecture,
 technology management and economics, and nautical science in close
 collaboration with industry
 and society."
-permalink: /about/
+header:
+   image_fullwidth: "header_unsplash_5.jpg"
+permalink: "/about/"
 categories:
     - projects
 tags:
@@ -29,8 +31,6 @@ tags:
     - Volvo Technology
     - Volvo
 
-header:
-    image_fullwidth: "header_drop.jpg"
 ---
 ## Chalmers University of Technology
 Chalmers University of Technology in Goteborg conducts research and

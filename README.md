@@ -1,22 +1,37 @@
 ### Road map
 
-Project pages:
+Pages:
+    - / homepage [Done][hamide]
 
-    - heavens/ [Done][hamide]
-    
     - contact/ [Done][hamide]
+
+    - about/ [Done][hamide]
 
     - secspec/ [Done][hamide]
 
+    - heavens/ [Done][hamide]
+
+    - securit/ [Done][hamide]
+
+    - sefram/ [Done][hamide]
+    
+    - lbsecurity/ [Done][hamid]
+
+    - vehicular/ [Empty]
+
+    - cryptography/ [Empty]
+
+
+
 Listings:
 
-    - /news/archive/ [Done][hamide]
+    - news/archive/ [Done][hamide]
 
     - news/ [Done][hamide]
     
     - people/ [Done][hamide]
 
-    - /feed.xml, /sitemap.xml, /atom.xml 
+    - feed.xml, sitemap.xml, atom.xml 
 
 
 Personal pages & Publications:
@@ -67,7 +82,7 @@ GU logo are taken from : [gu-logo]
    [academicons]:<https://www.researchgate.net/press>
    [FortAwesome]:<https://www.researchgate.net/press>
    [gu-logo]:<http://bildbank.gu.se/logotyperochmallar/>
-   [hamide]:<http://www.cse.chalmers.se/~hamide/>
-   [elenap]:<http://www.cse.chalmers.se/~elenap/>
+   [hamide]:<http://www.cse.chalmers.se/hamide/>
+   [elenap]:<http://www.cse.chalmers.se/elenap/>
 
 
