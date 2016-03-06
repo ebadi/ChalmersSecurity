@@ -34,6 +34,7 @@ Listings:
 
     - feed.xml, sitemap.xml, atom.xml 
 
+    - projects/ [Empty][hamide]
 
 Personal pages & Publications:
 
