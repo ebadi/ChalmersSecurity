@@ -15,7 +15,7 @@ Pages:
     - securit/ [Done][hamide]
 
     - sefram/ [Done][hamide]
-    
+
     - lbsecurity/ [Done][hamid]
 
     - vehicular/ [Empty]
@@ -29,17 +29,17 @@ Listings:
     - news/archive/ [Done][hamide]
 
     - news/ [Done][hamide]
-    
+
     - people/ [Done][hamide]
 
-    - feed.xml, sitemap.xml, atom.xml 
+    - feed.xml, sitemap.xml, atom.xml
 
     - projects/ [Empty][hamide]
 
 Personal pages & Publications:
 
     - ebadi/  [Done][hamide]
-    
+
     - elenap/ [Done][elenap]
 
     - lbello/ [Done][hamide]
@@ -51,24 +51,25 @@ Personal pages & Publications:
     - List of all people
 
         - create template files in git
-        
+
         - create sample content (using bib file from dblp) and by crawling their webpages to get pdf files [hamide]
             wget -r --user-agent="Mozilla/5.0 (Windows NT 5.2; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"   --no-parent  "http://www.cse.chalmers.se/~dave/papers/"
-        
+
         - template emails
 
     - bib to yml for publications [hamide]
 
     - fixing header & logo
-  
+
+    - integrate scholar https://github.com/inukshuk/jekyll-scholar/
 
 ### Copyrighted Material
 While the source code for this website is under MIT LICENSE, the content is copyrighted. Please contact us if you decided to use the following contents.
 
     - images, logos ( images, assets)  
-    - contents & news (_site, _pages, _posts, _pdf, _files, _data) 
+    - contents & news (_site, _pages, _posts, _pdf, _files, _data)
     - pesonal information and pictures
- 
+
 ### Images
 Chalmers logos (assets/img/) are taken from [Chalmers.se][chalmers-logo] website:
 
@@ -86,5 +87,3 @@ GU logo are taken from : [gu-logo]
    [gu-logo]:<http://bildbank.gu.se/logotyperochmallar/>
    [hamide]:<http://www.cse.chalmers.se/hamide/>
    [elenap]:<http://www.cse.chalmers.se/elenap/>
-
-

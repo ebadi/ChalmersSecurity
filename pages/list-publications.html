@@ -18,8 +18,10 @@ permalink: "/publications/"
         <dd class="accordion-navigation">
         <a href="#panel{{ counter }}"><span class="iconfont"></span> <strong>{{ publication.title }}</strong></a>
           <div id="panel{{ counter }}" class="content">
-            {% if publication.summary %}{{ publication.summary | strip_html | escape }}{% endif %}
-            <a href="{{ site.url }}{{ site.baseurl }}/pdf/{{ publication.pdffile }}" title="Read {{ publication.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
+            <p>{% if publication.container-title %}{{ publication.container-title | strip_html | escape }}{% endif %} </p>
+            <p>{% if publication.container-title %}{{ publication.container-title | strip_html | escape }}{% endif %} </p>
+
+            <a href="{{ site.url }}{{ site.baseurl }}/pdf/{{ publication.pdf }}" title="Read {{ publication.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
           </div>
         </dd>
     {% endunless %}
