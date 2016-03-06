@@ -10,7 +10,7 @@ header:
   background-color: Red
 widget1:
   title: "Programming Language Security"
-  url: '{{ site.url }}/prolangsec'
+  url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
 and   encryption   do   not   directly   address   the   enforcement   of
@@ -25,13 +25,13 @@ some  important open challenges.'
 
 widget2:
   title: "Cryptography and Authentication"
-  url: '{{ site.url }}/cryptography'
-  image: widget-1-302x182.jpg
+  url: 'cryptography'
+  image: 'widget-1-302x182.jpg'
   text: 'Using cryptography methods to design distance bounding protocols '
 
 widget3:
   title: "Computer Network Security"
-  url: ''
+  url: 'network security'
   video: '<iframe src="https://player.vimeo.com/video/56874383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   text: 'Why is it possible to break into networked applications and computer systems? What weaknesses are used? And what makes one protocol more secure than another? This course answers these questions and many more. We look at weaknesses that have plagued wired and wireless networked systems for years and investigate the security of countermeasures like firewalls and security protocols such as SSL, SSH and IPsec. Knowledge about possible threats and countermeasures is important for understanding what level of security a system and an application can offer. '
 #
