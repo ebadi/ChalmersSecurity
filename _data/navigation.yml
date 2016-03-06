@@ -10,11 +10,11 @@
   url: "/research/"
   side: right
   dropdown:
+  - title: "Language Based Security "
+    url: "/lbsecurity"
   - title: "Cryptography"
     url: "/research/cryptography/"
-  - title: "Privacy"
-    url: "/research/privacy/"
-  - title: "Car Security"
+  - title: "Vehicular Security"
     url: "/research/carsecurity/"
 
 - title: "Projects"
@@ -23,13 +23,19 @@
   dropdown:
   - title: "Heavens"
     url: "/heavens/"
-  - title: "Project B"
-    url: "/projects/B/"
+  - title: "Securit"
+    url: "/securit/"
+  - title: "SeFram"
+    url: "/sefram/"
+
 
 
 - title: News
   url: "/news/"
   side: right
+  dropdown:
+  - title: "Archive"
+    url: "/news/archive"
   
 - title: Publications
   url: "/publications/"

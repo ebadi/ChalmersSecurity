@@ -12,7 +12,7 @@ widget1:
   title: "Programming Language Security"
   url: '{{ site.url }}/prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: 'Using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
+  text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
 and   encryption   do   not   directly   address   the   enforcement   of
 information-flow  policies.  Recently,  a  promising  new  approach
 has  been  developed:  the  use  of  programming-language  tech-

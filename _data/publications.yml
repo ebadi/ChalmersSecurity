@@ -32,7 +32,7 @@
   - andrei
   summary: "Much progress has recently been made on information flow control, enabling the enforcement of increasingly rich policies for increasingly expressive programming languages. This has resulted in tools for mainstream programming languages as JavaScript, Java, Caml, and Ada that enforce versatile security policies. However, a roadblock on the way to wider adoption of these tools has been their limited permissiveness (high false positives). Flow-, context-, and object-sensitive techniques have been suggested to improve the precision of static information flow control and dynamic monitors have been explored to leverage the knowledge about the current run for precision. This paper explores _value sensitivity_ to boost the permissiveness of information flow control. We show that both dynamic and hybrid information flow mechanisms benefit from value sensitivity. Further, we introduce the concept of _observable abstract values_ to generalize and leverage the power of value sensitivity to richer programming languages. We demonstrate the usefulness of the approach by comparing it to known disciplines for dealing with information flow in dynamic and hybrid settings. More information (here)[http://www.jsflow.net/valsens/]."
 
-- title: JSFlow: Tracking Information Flow in JavaScript and its APIs
+- title: JSFlow, Tracking Information Flow in JavaScript and its APIs
   pdffile: "sac14.pdf"
   year: 2014
   authers:

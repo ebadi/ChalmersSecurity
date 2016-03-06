@@ -1,78 +1,73 @@
-sudo gem install nodejs
-sudo apt-get install ruby-dev
-sudo gem install jekyll
+### Road map
+
+Project pages:
+
+    - heavens/ [Done][hamide]
+    
+    - contact/ [Done][hamide]
+
+    - secspec/ [Done][hamide]
+
+Listings:
+
+    - /news/archive/ [Done][hamide]
+
+    - news/ [Done][hamide]
+    
+    - people/ [Done][hamide]
+
+    - /feed.xml, /sitemap.xml, /atom.xml 
 
 
-### install ruby 2 : http://stackoverflow.com/questions/16222738/how-do-i-install-ruby-2-0-0-correctly-on-ubuntu-12-04
+Personal pages & Publications:
 
-/* Not tested :
-$ sudo apt-get install python-software-properties
-$ sudo apt-add-repository ppa:brightbox/ruby-ng
-$ sudo apt-get update
-$ sudo apt-get install ruby2.1 ruby-switch
-$ sudo ruby-switch --set ruby2.1
-*/
+    - ebadi/  [Done][hamide]
+    
+    - elenap/ [Done][elenap]
 
-/* Tested
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash -s stable --ruby
-source /home/user/.rvm/scripts/rvm
-rvm get stable
-rvm install 2.0.0
-*/
+    - lbello/ [Done][hamide]
 
-sudo gem install rvm
-rvm get
+### TO DO
 
-gem install jekyll
-gem install bundler
-gem install octopress
+    - Change the top menu from uppercase-forced to normal [elenap]
 
+    - List of all people
 
-bundle install
-bundle exec jekyll serve
+        - create template files in git
+        
+        - create sample content (using bib file from dblp) and by crawling their webpages to get pdf files [hamide]
+            wget -r --user-agent="Mozilla/5.0 (Windows NT 5.2; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"   --no-parent  "http://www.cse.chalmers.se/~dave/papers/"
+        
+        - template emails
 
-http://phlow.github.io/feeling-responsive/documentation/
+    - bib to yml for publications [hamide]
 
-These images are taken from chalmers.se website (Not part of LICENSE) :
-http://www.chalmers.se/sv/om-chalmers/profil-och-identitet/Sidor/logotyp.aspxhttp://www.chalmers.se/sv/om-chalmers/profil-och-identitet/Sidor/logotyp.aspx
-assets/img/AvancezChalmersU_black_centered.png
-assets/img/AvancezChalmersU_black_right.png
-assets/img/AvancezChalmersU_bw_centered.png
-assets/img/AvancezChalmersU_bw_right.png
-assets/img/AvancezChalmersU_white_centered.png
-assets/img/AvancezChalmersU_white_right.png
-assets/img/AvancezChalmers_black_centered.png
-assets/img/AvancezChalmers_black_right.png
-assets/img/AvancezChalmers_bw_centered.png
-assets/img/AvancezChalmers_bw_right.png
-assets/img/AvancezChalmers_white_centered.png
-assets/img/AvancezChalmers_white_right.png
-assets/img/ChalmersU_black.png
-assets/img/Chalmers_black.png
-assets/img/Chalmers_white.png
+    - fixing header & logo
+  
 
-https://www.chalmers.se/sv/centrum/graphene/organisation/Sidor/default.aspx
-images/Chalmersplatsen_690x330px.jpg
+### Copyrighted Material
+While the source code for this website is under MIT LICENSE, the content is copyrighted. Please contact us if you decided to use the following contents.
 
+    - images, logos ( images, assets)  
+    - contents & news (_site, _pages, _posts, _pdf, _files, _data) 
+    - pesonal information and pictures
+ 
+### Images
+Chalmers logos (assets/img/) are taken from [Chalmers.se][chalmers-logo] website:
 
-assets/icons/* are taken from https://github.com/jglovier/resume-template
+Icons in assets/icons/* are taken from [resume template][jglovier]
 
-ResearchGate icon
-assets/icons/RG_Logo.png
-https://www.researchgate.net/press
+Icons are taken from : [rg] ,  [academicons], [FortAwesome]
 
-Google scholar, researchgate png:
-https://github.com/jpswalsh/academicons
-https://github.com/FortAwesome
+GU logo are taken from : [gu-logo]
 
-All images in /images/people are protected.
-
-GU logo are taken from http://bildbank.gu.se/logotyperochmallar/
-assets/img/gu.jpg
-assets/img/LO_GUeng_cenRGB.jpg
-assets/img/LO_GUeng_cenSV.jpg
+   [chalmers-logo]:<https://www.chalmers.se/sv/centrum/graphene/organisation/Sidor/default.aspx>
+   [jglovier]:<https://github.com/jglovier/resume-template>
+   [rg]:<https://www.researchgate.net/press>
+   [academicons]:<https://www.researchgate.net/press>
+   [FortAwesome]:<https://www.researchgate.net/press>
+   [gu-logo]:<http://bildbank.gu.se/logotyperochmallar/>
+   [hamide]:<http://www.cse.chalmers.se/~hamide/>
+   [elenap]:<http://www.cse.chalmers.se/~elenap/>
 
 
-TODO:
-[1] change the top menu from uppercase-forced to normal
