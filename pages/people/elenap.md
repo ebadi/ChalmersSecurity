@@ -8,7 +8,7 @@ breadcrumb: true
 categories:
     - people
   
-    ## choose one : phd, postdoc, retired, professor
+    ## choose one : phd, postdoc, professor OR former-member
 tags:
     - phd
 website: http://www.cse.chalmers.se/~elenap/

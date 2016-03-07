@@ -8,9 +8,9 @@ breadcrumb: true
 categories:
     - people
 
-    ## choose one : phd, postdoc, professor
+   ## choose one : phd, postdoc, professor OR former-member
 tags:
-    - formerphd
+    - former-member
 website: http://www.lucianobello.com.ar
 email: lbello@gmail.com
 telephone:
