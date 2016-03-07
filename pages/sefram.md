@@ -2,6 +2,8 @@
 layout: page
 title: "Security Framework for Vehicles"
 teaser: "The purpose of the project is to analyze this area to find solutions to manage the risks. This will be achieved by developing communication- and security models to enable verifiable security for future vehicles. "
+categories:
+    - project
 permalink: "/sefram/"
 ---
 

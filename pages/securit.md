@@ -2,6 +2,8 @@
 layout: page
 title: "Security Culture and Information Technology"
 teaser: "The overall aim of the proposed research program is to develop a framework for design of information security solutions, based on identification of challenges encountered and produced by IS solutions in organizations of increasing socio-technical complexity and mobility."
+categories:
+    - project
 permalink: "/securit/"
 ---
 The overall aim of the proposed research program is to develop a framework for design of information security solutions, based on identification of challenges encountered and produced by IS solutions in organizations of increasing socio-technical complexity and mobility.

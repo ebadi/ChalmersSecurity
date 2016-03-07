@@ -63,10 +63,19 @@ Personal pages & Publications:
 
     - integrate scholar https://github.com/inukshuk/jekyll-scholar/
 
+    - moving news folder to pages
+
+    - moving projects into its separate folder
+
+    - remove _drafts
+
+    - moving files from _posts/css/ to _posts
+    
+
 ### Copyrighted Material
 While the source code for this website is under MIT LICENSE, the content is copyrighted. Please contact us if you decided to use the following contents.
 
-    - images, logos ( images, assets)  
+    - images, logos ( images, assets)
     - contents & news (_site, _pages, _posts, _pdf, _files, _data)
     - pesonal information and pictures
 

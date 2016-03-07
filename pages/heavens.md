@@ -2,6 +2,8 @@
 layout: page
 title: "HEAling Vulnerabilities to ENhance Software Security and Safety"
 teaser: "Safety is traditionally regarded as one of the most important attributes in the automotive industry. At the same time, security has hardly been addressed, but new generation of vehicles will communicate much more with each other and with their environment. "
+categories:
+    - project
 permalink: "/heavens/"
 header:
     image_fullwidth: "header_drop.jpg"
