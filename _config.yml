@@ -56,6 +56,8 @@ logo: "AvancezChalmers_bw_right.png"
 gems:
     - jekyll-gist
     - jekyll-paginate
+    - jekyll/scholar
+
 paginate: 5                      # Paginates all X entries
 paginate_path: "news/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
@@ -246,3 +248,36 @@ sass:
 # used in _includes/footer_scripts
 
 # tawkto_embed_uri:
+
+
+
+
+#  SCHOLAR
+
+scholar:
+  style: chicago-fullnote-bibliography # , apa chicago-fullnote-bibliography
+  locale: en
+
+  sort_by: year
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: _bibliography
+  bibliography: references.bib
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
