@@ -93,6 +93,7 @@ Each entry in the _bibliography/references.bib referes to one publications.
 If a pdf file with the same name as the KEY is placed in the /pdf directory,
 a download link to that file (KEY.pdf) will be also created.
 
+```txt
 @inproceedings{KEY,
   author    = {Hamid Ebadi and
                David Sands},
@@ -103,4 +104,4 @@ a download link to that file (KEY.pdf) will be also created.
   doi       = {blah},
   timestamp = {Sat, 20 Dec 2014 16:56:16 +0100},
 }
-
+```
