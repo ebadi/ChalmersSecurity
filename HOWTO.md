@@ -1,16 +1,13 @@
-Markdown is plain text formatting syntax that is much simpler than HTML.
-The content of a page or in a news post can be written in Markdown language.
-Markdown format is really simple:
+The content of this page, a page in our website are written in "Markdown" language.
+Markdown format is really simple and can be learn here.
 https://en.wikipedia.org/wiki/Markdown#Example
 
+Here we explain different kinds of content that one can add to the website.
 
-Here we explain different kind of content one can add to the website.
-
-### Pages
+### Posts
 
 News are store in the _posts directory and should have a filename
 like this : 20YY-MM-DD-title.md
-
 
 ```txt
 ---
@@ -21,9 +18,9 @@ teaser: "At most two sentences introduction to attract viewers "
 tags: 
     - csstalk
     
-#Optional: categories are used to categorised similar news, 
-#choose at most one category
-categories: general
+
+# choose at most one category
+categories: talk
 
 image: my.jpg # this refers to /images/my.jpg
 ---
@@ -31,11 +28,10 @@ MARKDOWN
 
 ```
 ### Pages
-pages are used to keep information about contents that are not coupled
-with just an specific time. While news usually have a date
-(and loose thier importance after that time) but pages are mostly 
-static and keep their importance as time passes.
-E.g. : cotanct page, about page, projects, people.
+pages are used to keep information about contents that are not bound to any specific time.
+ While news usually have a date (and loose thier importance after that time), 
+but pages are mostly static and keep their importance as time passes.
+eg. : contact page, about page, projects, people.
 
 ```txt
 ---
@@ -69,7 +65,7 @@ layout: people
 fname:  "Firstname"
 lname: "Secondname" # This is also used to fetch the list of publications from bib files
 cid : CID  # please also add images/people/CID.jpg
-permalink: "CID" 
+permalink: "/CID/" 
 teaser: "I am a former PhD student ...  from 2011 to 2016."
 categories: people
 
@@ -88,7 +84,7 @@ github: "https://github.com/..."
 researchgate: "https://www.researchgate.net/profile/..."
 googlescholar: "https://scholar.google.se/citations?user=..."
 ---
-I was a PhD student ....  interest, teaching in MARKDOWN
+I was a PhD student ....  interest, teaching in MARKDOWN blah blah
 ```
 
 
