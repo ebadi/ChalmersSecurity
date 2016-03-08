@@ -1,14 +1,13 @@
 ---
 layout: people
-title:  "Luciano Bello"
-cid : lbello
-permalink: "lbello"
+fname: "Luciano"
+lname: "Bello"
+cid : "lbello"
+permalink: "/lbello/"
 teaser: "I am a former PhD student in the Computer Science and Engineering department in the Software Technology division at Chalmers University of Technology from 2011 to 2016."
 breadcrumb: true
-categories:
-    - people
-
-   ## choose one : phd, postdoc, professor OR former-member
+   ## choose one : phd, postdoc, professor or former-member
+categories: people
 tags:
     - former-member
 website: http://www.lucianobello.com.ar

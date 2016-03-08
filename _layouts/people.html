@@ -7,7 +7,7 @@ format: post
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				<div itemprop="name">
-					<h1>{{ page.title }}</h1>
+					<h1>{{ page.fname }} {{ page.lname }}</h1>
 				</div>
 			</header>
 
@@ -23,30 +23,9 @@ format: post
 			<div itemprop="name">
 				<h2>Publications</h2>
 
-			<ul class="side-nav">
-        <dl class="accordion" data-accordion>
-				{% assign counter = 1 %}
+				<!--  https://techblog.lankes.org/2015/04/06/From-Wordpress-to-Jekyll/ -->
+				{% bibliography --query @*[author ^= {{ page.lname }} ] %}
 
-			  {% for publication in site.data.publications %}
-			    {% unless publication.published == false %}
-					  {% for auther in publication.authers %}
-						  {% if page.cid == auther %}
-							{% assign counter=counter | plus:1 %}
-							<dd class="accordion-navigation">
-							<a href="#panel{{ counter }}"><span class="iconfont"></span> <strong>{{ publication.title }}</strong></a>
-								<div id="panel{{ counter }}" class="content">
-									{% if publication.summary %}{{ publication.summary | strip_html | escape }}{% endif %}
-									<a href="{{ site.url }}{{ site.baseurl }}/pdf/{{ publication.pdffile }}" title="Read {{ publication.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
-								</div>
-							</dd>
-              {% endif %}
-						{% endfor %}
-			    {% endunless %}
-			  {% endfor %}
-        </dl>
-
-
-			</ul>
 		</div>
 
 

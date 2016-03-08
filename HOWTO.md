@@ -22,12 +22,8 @@ tags:
     - csstalk
     
 #Optional: categories are used to categorised similar news, 
-#choose only one main category and feel free to add more.
-categories:
-    - talk
-    - achievment
-    - visit
-    - conference
+#choose at most one category
+categories: general
 
 image: my.jpg # this refers to /images/my.jpg
 ---
@@ -51,9 +47,8 @@ header:
    image_fullwidth: "x.jpg"
 # where this page has to appear
 permalink: "/pagename/"
-# one category
-categories:
-    - projects
+# choose at most one category (project, research)
+categories: projects
 # like keywords
 tags:
     - Safety
@@ -71,17 +66,17 @@ Each individual has to have a file in /pages/people with the name CID.md
 ```txt
 ---
 layout: people
-title:  "Firstname Secondname"
+fname:  "Firstname"
+lname: "Secondname" # This is also used to fetch list of  publications from bib files
 cid : CID  # please also add images/people/CID.jpg
 permalink: "CID" 
-publicationname: Secondname # used to find your publications in .bib files 
 teaser: "I am a former PhD student ...  from 2011 to 2016."
-categories:
-    - people
+categories: people
 
-## choose one : phd, postdoc, professor or former-member
+## choose : phd, postdoc, professor or former-member
 tags:
     - former-member
+    - phd
 website: http://www.cse.chalmers.se/~hamide/
 email: CID@chalmers.se
 telephone:+46317721757
@@ -95,3 +90,27 @@ googlescholar: "https://scholar.google.se/citations?user=..."
 ---
 I was a PhD student ....  interest, teaching in MARKDOWN
 ```
+
+
+### Publications 
+Each entry in the _bibliography/references.bib referes to one publications.
+
+
+@inproceedings{popl2015,
+  author    = {Hamid Ebadi and
+               David Sands and
+               Gerardo Schneider},
+  title     = {Differential Privacy: Now it's Getting Personal},
+  booktitle = {Proceedings of the 42nd Annual {ACM} {SIGPLAN-SIGACT} Symposium on
+               Principles of Programming Languages, {POPL} 2015, Mumbai, India, January
+               15-17, 2015},
+  pages     = {69--81},
+  year      = {2015},
+  crossref  = {DBLP:conf/popl/2015},
+  url       = {http://doi.acm.org/10.1145/2676726.2677005},
+  doi       = {10.1145/2676726.2677005},
+  timestamp = {Sat, 20 Dec 2014 16:56:16 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/popl/EbadiSS15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+

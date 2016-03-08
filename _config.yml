@@ -26,8 +26,12 @@ author: elena
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 		'http://localhost:4000'
-baseurl: 	''
+#url: 		'http://localhost:4000'
+#baseurl: 	''
+
+# hamid config
+url: 		'http://www.cse.chalmers.se'
+baseurl: 	'/~hamide/ChalmersSecurity'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -255,29 +259,32 @@ sass:
 #  SCHOLAR
 
 scholar:
-  style: chicago-fullnote-bibliography # , apa chicago-fullnote-bibliography
+  style: assets/bibliography/ieee-with-url.csl # mla, apa chicago-fullnote-bibliography
   locale: en
 
   sort_by: year
   order: ascending
 
+  bibliography_list_tag: ul
+
   group_by: none
   group_order: ascending
 
   source: _bibliography
-  bibliography: references.bib
-  bibliography_template: bibtemplate
+  repository: pdf
+  bibliography: references
+  bibliography_template: bibtex
 
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: false
+  use_raw_bibtex_entry: true
   bibtex_filters:
   - superscript
   - latex
 
   details_dir:    bibliography
   details_layout: bibtex.html
-  details_link:   Details
+  details_link:  ""
 
   query: "@*"
