@@ -67,7 +67,7 @@ Each individual has to have a file in /pages/people with the name CID.md
 ---
 layout: people
 fname:  "Firstname"
-lname: "Secondname" # This is also used to fetch list of  publications from bib files
+lname: "Secondname" # This is also used to fetch the list of publications from bib files
 cid : CID  # please also add images/people/CID.jpg
 permalink: "CID" 
 teaser: "I am a former PhD student ...  from 2011 to 2016."
@@ -94,23 +94,17 @@ I was a PhD student ....  interest, teaching in MARKDOWN
 
 ### Publications 
 Each entry in the _bibliography/references.bib referes to one publications.
+If a pdf file with the same name as the KEY is placed in the /pdf directory,
+a download link to that file (KEY.pdf) will be also created.
 
-
-@inproceedings{popl2015,
+@inproceedings{KEY,
   author    = {Hamid Ebadi and
-               David Sands and
-               Gerardo Schneider},
-  title     = {Differential Privacy: Now it's Getting Personal},
-  booktitle = {Proceedings of the 42nd Annual {ACM} {SIGPLAN-SIGACT} Symposium on
-               Principles of Programming Languages, {POPL} 2015, Mumbai, India, January
-               15-17, 2015},
-  pages     = {69--81},
-  year      = {2015},
-  crossref  = {DBLP:conf/popl/2015},
-  url       = {http://doi.acm.org/10.1145/2676726.2677005},
-  doi       = {10.1145/2676726.2677005},
+               David Sands},
+  title     = {Blah},
+  booktitle = {Blah},
+  year      = {2016},
+  url       = {http://doi.acm.org/blah},
+  doi       = {blah},
   timestamp = {Sat, 20 Dec 2014 16:56:16 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/popl/EbadiSS15},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 

@@ -1,3 +1,6 @@
+### How to add content
+Please read this [instruction](HOWTO.md) on how to add a new content.
+
 ### Road map
 
 Pages:
@@ -21,8 +24,6 @@ Pages:
     - vehicular/ [Empty]
 
     - cryptography/ [Empty]
-
-
 
 Listings:
 
@@ -57,20 +58,8 @@ Personal pages & Publications:
 
         - template emails
 
-    - bib to yml for publications [hamide]
-
     - fixing header & logo
 
-    - integrate scholar https://github.com/inukshuk/jekyll-scholar/
-
-    - moving news folder to pages
-
-    - moving projects into its separate folder
-
-    - remove _drafts
-
-    - moving files from _posts/css/ to _posts
-    
 
 ### Copyrighted Material
 While the source code for this website is under MIT LICENSE, the content is copyrighted. Please contact us if you decided to use the following contents.
