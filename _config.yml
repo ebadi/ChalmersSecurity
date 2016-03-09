@@ -32,10 +32,7 @@ author: elena
 # hamid config
 url: 		'http://www.cse.chalmers.se'
 baseurl: 	'/~hamide/ChalmersSecurity'
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/ebadi/ChalmersSecurity/edit/gh-pages
+urlimg: 	'http://www.cse.chalmers.se/~hamide/ChalmersSecurity/images/'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -43,7 +40,11 @@ improve_content: https://github.com/ebadi/ChalmersSecurity/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 	'http://localhost:4000/images/'
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+
+
+improve_content: https://github.com/ebadi/ChalmersSecurity/edit/gh-pages
 
 
 # Logo size is 600x80 pixels

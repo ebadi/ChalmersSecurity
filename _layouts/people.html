@@ -40,7 +40,7 @@ format: post
 			<div class="border-dotted radius b30">
 				{% if page.cid %}
 				<figure>
-					<img src="{{ site.url }}{{ site.baseurl }}/people/{{ page.cid }}.jpg" width="970" alt="{{ page.title escape_once }}" itemprop="image">
+					<img src="{{ site.urlimg }}/people/{{ page.cid }}.jpg" width="970" alt="{{ page.title escape_once }}" itemprop="image">
 
 					{% if page.image.caption_url && page.image.caption %}
 					<figcaption class="text-right">
