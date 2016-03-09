@@ -1,7 +1,7 @@
 ---
 layout: people
 fname:  "Per"
-lname: "Halgren" # This is also used to fetch the list of publications from bib files
+lname: "Hallgren" # This is also used to fetch the list of publications from bib files
 cid : CID  # please also add images/people/CID.jpg
 permalink: "/halgren/"
 teaser: "I am a PhD student ...  from 2011 to 2016."  # at most two lines
