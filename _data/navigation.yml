@@ -3,7 +3,7 @@
   side: left
 
 # - title: Home
-#  url: "/"
+#  url: "/ /"
 #  side: right
 
 - title: Research Areas
@@ -11,11 +11,11 @@
   side: right
   dropdown:
   - title: "Language Based Security "
-    url: "/lbsecurity"
+    url: "/lbsecurity/"
   - title: "Cryptography"
     url: "/cryptography/"
   - title: "Vehicular Security"
-    url: "/vehicular"
+    url: "/vehicular/"
 
 - title: "Projects"
   url: "/projects/"
@@ -35,7 +35,7 @@
   side: right
   dropdown:
   - title: "Archive"
-    url: "/news/archive"
+    url: "/news/archive/"
   
 - title: Publications
   url: "/publications/"
