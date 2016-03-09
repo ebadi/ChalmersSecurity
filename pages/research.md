@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: compress
 title: "Research"
 teaser: "EDIT ME "
 permalink: "/research/"

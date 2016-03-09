@@ -10,11 +10,11 @@
   url: "/research/"
   side: right
   dropdown:
-  - title: System Security "
+  - title: "System Security"
     url: "/syssecurity/"
   - title: "Cryptography"
     url: "/cryptography/"
-  - title: "Softwaer Securityy"
+  - title: "Software Security"
     url: "/softawresecurity/"
   - title: "Privacy"
     url: "/priavct/"
