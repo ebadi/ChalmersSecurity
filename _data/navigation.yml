@@ -1,4 +1,4 @@
-- title: Chalmers Security Group
+- title: Chalmers Security Lab
   url: "/"
   side: left
 
@@ -10,12 +10,14 @@
   url: "/research/"
   side: right
   dropdown:
-  - title: "Language Based Security "
-    url: "/lbsecurity/"
+  - title: System Security "
+    url: "/syssecurity/"
   - title: "Cryptography"
     url: "/cryptography/"
-  - title: "Vehicular Security"
-    url: "/vehicular/"
+  - title: "Softwaer Securityy"
+    url: "/softawresecurity/"
+  - title: "Privacy"
+    url: "/priavct/"
 
 - title: "Projects"
   url: "/projects/"
@@ -36,16 +38,16 @@
   dropdown:
   - title: "Archive"
     url: "/news/archive/"
-  
+
 - title: Publications
   url: "/publications/"
   side: right
- 
+
 - title: People
   url: "/people/"
   side: right
 
-- title: Courses
+- title: Education
   url: "/secspec/"
   side: right
 
@@ -53,6 +55,6 @@
   url: "/contact/"
   side: right
 
-- title: "About"
-  url: "/about/"
-  side: right
+#- title: "About"
+#  url: "/about/"
+#  side: right
