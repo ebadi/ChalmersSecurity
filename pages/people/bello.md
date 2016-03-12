@@ -11,6 +11,7 @@ categories: people
 tags:
     - former-member
 website: http://www.lucianobello.com.ar
+publications: http://www.cse.chalmers.se/~hamide/ChalmersSecurity/bello/
 email: lbello@gmail.com
 telephone:
 address:

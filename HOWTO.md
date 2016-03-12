@@ -12,7 +12,8 @@ Each individual has to have a file in /pages/people with the name CID.md
 layout: people
 fname:  "Firstname"
 lname: "Secondname" # This is also used to fetch the list of publications from bib files
-cid : CID  # please also add images/people/CID.jpg
+cid : CID  # used to build email/web addresses
+pic: # please also add images/people/CID.jpg
 permalink: "/CID/"
 teaser: "I am a former PhD student ...  from 2011 to 2016."
 categories: people
@@ -21,16 +22,16 @@ categories: people
 tags:
     - former-member
     - phd
-website: http://www.cse.chalmers.se/~hamide/
-email: CID@chalmers.se
+#website: http://blah # otherwise cse.chalmers.se/~CID if CID is provided
+#email: CID@chalmers.se # otherwise CID@chalmers.se if CID is provided
 telephone:+46317721757
 address:"Rännvägen 6, Room: 5447, 5th floor (EDIT-building) -
  Department of Computer Science and Engineering,
  Chalmers University of Technology, 412-96, Gothenburg, Sweden"
-linkedin: "https://www.linkedin.com/..."
-github: "https://github.com/..."
-researchgate: "https://www.researchgate.net/profile/..."
-googlescholar: "https://scholar.google.se/citations?user=..."
+#linkedin: "https://www.linkedin.com/..."
+#github: "https://github.com/..."
+#researchgate: "https://www.researchgate.net/profile/..."
+#googlescholar: "https://scholar.google.se/citations?user=..."
 ---
 I was a PhD student ....  interest, teaching in MARKDOWN blah blah
 ```

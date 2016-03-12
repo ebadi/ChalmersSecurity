@@ -5,36 +5,42 @@ permalink: "/people/"
 ---
 
 <div class="posts clearfix">
-  {% for pg in site.pages %}
-  {% if pg.categories contains "people"  %}
+  {% for page in site.pages %}
+  {% if page.categories contains "people"  %}
 
-    {% if pg.website contains  'http' %}
-      {% assign ws =  pg.website %}
+    {% if page.website contains  'http' %}
+      {% assign ws =  page.website %}
     {% else %}
-      {% capture ws %}http://cse.chalmers.se/~{{ pg.cid }}{% endcapture %}
+      {% capture ws %}http://cse.chalmers.se/~{{ page.cid }}{% endcapture %}
     {% endif %}
 
-    {% if pg.email contains  '@' %}
-      {% assign em =  pg.email %}
+    {% if page.email contains  '@' %}
+      {% assign em =  page.email %}
     {% else %}
-      {% capture em %}{{ pg.cid }}@chalmers.se{% endcapture %}
+      {% capture em %}{{ page.cid }}@chalmers.se{% endcapture %}
+    {% endif %}
+
+    {% if page.publications contains  'http' %}
+      {% assign pub =  page.publications %}
+    {% else %}
+      {% capture pub %}http://publications.lib.chalmers.se/rweb/index.xsql?personID={{ page.cid }}{% endcapture %}
     {% endif %}
 
     <article class="post">
 
       <div class="entry">
-        <img src="{{ site.urlimg }}/people/{{ pg.pic }}" width="970" itemprop="image">
+        <img src="{{ site.urlimg }}/people/{{ page.pic }}" width="970" itemprop="image">
       </div>
-      <a  class="small-link primary-link"  href="{{ ws }}">{{ pg.fname }} {{ pg.lname }}</a>
-
-    </p>{{ em }}</p>
+      <a  class="small-link primary-link"  href="{{ ws }}">{{ page.fname }} {{ page.lname }}</a>
+      </p>{{ em }}</p>
+      <a  class="small-link primary-link"  href="{{ pub }}">Publications </a>
 
     <p class="text-left">
       <!-- <a href="{{ ws }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-website.svg" width="50" height="50"></a> -->
-      {% if pg.github %}<a href="{{ pg.github }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-github.svg" width="50" height="50"></a>{% endif %}
-      {% if pg.linkedin %}<a href="{{ pg.linkedin }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-linkedin.svg" width="50" height="50"></a>{% endif %}
-      {% if pg.researchgate %}<a href="{{ pg.researchgate }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-researchgate.png" width="50" height="50"></a>{% endif %}
-      {% if pg.googlescholar %}<a href="{{ pg.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
+      {% if page.github %}<a href="{{ page.github }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-github.svg" width="50" height="50"></a>{% endif %}
+      {% if page.linkedin %}<a href="{{ page.linkedin }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-linkedin.svg" width="50" height="50"></a>{% endif %}
+      {% if page.researchgate %}<a href="{{ page.researchgate }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-researchgate.png" width="50" height="50"></a>{% endif %}
+      {% if page.googlescholar %}<a href="{{ page.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
     </p>
 
     </article>
