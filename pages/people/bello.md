@@ -2,8 +2,8 @@
 layout: people
 fname: "Luciano"
 lname: "Bello"
-cid : "lbello"
-permalink: "/lbello/"
+pic : "bello.jpg"
+permalink: "/bello/"
 teaser: "I am a former PhD student in the Computer Science and Engineering department in the Software Technology division at Chalmers University of Technology from 2011 to 2016."
 breadcrumb: true
    ## choose one : phd, postdoc, professor or former-member

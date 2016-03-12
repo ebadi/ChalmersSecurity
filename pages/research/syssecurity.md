@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Research"
+title: "System Security"
 teaser: "EDIT ME "
-permalink: "/vehicular/"
+permalink: "/syssecurity/"
 categories:
     - project
 

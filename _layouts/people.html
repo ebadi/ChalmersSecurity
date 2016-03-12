@@ -54,9 +54,9 @@ format: post
 				</figure>
 				{% endif %}
 
-					</p>{% if page.email %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-email.svg" width="25" height="25"> Email: {{ page.email}} {% endif %}</p>
-				</p>{% if page.telephone %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-telephone.svg" width="25" height="25"> Telephone: {{ page.telephone}} {% endif %}</p>
-				  <p>{% if page.address %}<img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-address.svg" width="25" height="25"> Address: {{ page.address}} {% endif %}</p>
+					</p>{% if page.email %} Email: {{ page.email}} {% endif %}</p>
+				</p>{% if page.telephone %} Telephone: {{ page.telephone}} {% endif %}</p>
+				  <p>{% if page.address %} Address: {{ page.address}} {% endif %}</p>
 
 				<p class="text-left">
 					{% if page.website %}<a href="{{ page.website }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-website.svg" width="50" height="50"></a>{% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research"
+title: "cryptography"
 teaser: "EDIT ME "
 permalink: "/cryptography/"
 ---

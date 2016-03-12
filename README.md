@@ -11,6 +11,7 @@ While the source code for this website is under MIT LICENSE, the content is copy
 ### Images
 Chalmers logos (assets/img/) are taken from [Chalmers.se][chalmers-logo] website:
 
+
 Icons in assets/icons/* are taken from [resume template][jglovier]
 
 Icons are taken from : [rg] ,  [academicons], [FortAwesome]
@@ -25,16 +26,12 @@ GU logo are taken from : [gu-logo]
    [gu-logo]:<http://bildbank.gu.se/logotyperochmallar/>
 
 
-   ### Road map
+### Road map
 
      - better user profiles listing
 
-   ### TO DO
+### TO DO
 
      - create template files in git
 
-     - create sample content (using bib file from dblp) and by crawling their webpages to get pdf files [hamide]
-               wget -r --user-agent="Mozilla/5.0 (Windows NT 5.2; rv:2.0.1) Gecko/20100101 Firefox/4.0.1"   --no-parent  "http://www.cse.chalmers.se/~dave/papers/"
-       - template emails
-
-       - fixing header & logo
+     - fixing header & logo

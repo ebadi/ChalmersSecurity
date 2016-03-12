@@ -1,34 +1,43 @@
 ---
-layout: page
-title: "People in our security group"
-teaser: "Find the one you are looking for"
-breadcrumb: true
-header:
-   image_fullwidth: header_unsplash_8.jpg
+layout: home-grid
+title: "People in our group"
 permalink: "/people/"
 ---
-<div itemprop="name">
-<ul class="side-nav">
-  <dl class="accordion" data-accordion>
-  {% assign counter = 1 %}
 
+<div class="posts clearfix">
   {% for pg in site.pages %}
-     {% if pg.categories contains "people"  %}
-        {% assign counter=counter | plus:1 %}
-        <dd class="accordion-navigation">
-        <a href="#panel{{ counter }}"><span class="iconfont"></span>
-          {% if pg.tags contains "former-member" %} Former : {% endif %}
-          <strong>{{ pg.fname }} {{ pg.lname }}</strong></a>
-          <div id="panel{{ counter }}" class="content">
-            {{ pg.teaser | strip_html | escape }}
-            <a href="{{ site.url }}{{ site.baseurl }}/{{ pg.url }}" title="Read {{ pg.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
-          </div>
-        </dd>
-     {% endif %}
+  {% if pg.categories contains "people"  %}
+
+    {% if pg.website contains  'http' %}
+      {% assign ws =  pg.website %}
+    {% else %}
+      {% capture ws %}http://cse.chalmers.se/~{{ pg.cid }}{% endcapture %}
+    {% endif %}
+
+    {% if pg.email contains  '@' %}
+      {% assign em =  pg.email %}
+    {% else %}
+      {% capture em %}{{ pg.cid }}@chalmers.se{% endcapture %}
+    {% endif %}
+
+    <article class="post">
+
+      <div class="entry">
+        <img src="{{ site.urlimg }}/people/{{ pg.pic }}" width="970" itemprop="image">
+      </div>
+      <a  class="small-link primary-link"  href="{{ ws }}">{{ pg.fname }} {{ pg.lname }}</a>
+
+    </p>{{ em }}</p>
+
+    <p class="text-left">
+      <!-- <a href="{{ ws }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-website.svg" width="50" height="50"></a> -->
+      {% if pg.github %}<a href="{{ pg.github }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-github.svg" width="50" height="50"></a>{% endif %}
+      {% if pg.linkedin %}<a href="{{ pg.linkedin }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-linkedin.svg" width="50" height="50"></a>{% endif %}
+      {% if pg.researchgate %}<a href="{{ pg.researchgate }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-researchgate.png" width="50" height="50"></a>{% endif %}
+      {% if pg.googlescholar %}<a href="{{ pg.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
+    </p>
+
+    </article>
+  {% endif %}
   {% endfor %}
-  </dl>
-
-</ul>
-
-
 </div>

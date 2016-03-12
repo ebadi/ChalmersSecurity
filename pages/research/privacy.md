@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Research"
+title: "Privacy"
 teaser: "EDIT ME "
-permalink: "/vehicular/"
+permalink: "/privacy/"
 categories:
     - project
 

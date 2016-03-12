@@ -17,12 +17,16 @@
   - title: "Software Security"
     url: "/softawresecurity/"
   - title: "Privacy"
-    url: "/priavct/"
+    url: "/priavcy/"
 
 - title: "Projects"
   url: "/projects/"
   side: right
   dropdown:
+  - title: "DATABIN"
+    url: "/databin/"
+  - title: "AppFlow"
+    url: "/appflow/"
   - title: "Heavens"
     url: "/heavens/"
   - title: "Securit"
@@ -39,9 +43,9 @@
   - title: "Archive"
     url: "/news/archive/"
 
-- title: Publications
-  url: "/publications/"
-  side: right
+#- title: Publications
+#  url: "/publications/"
+#  side: right
 
 - title: People
   url: "/people/"
