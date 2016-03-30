@@ -27,7 +27,8 @@ author: elena
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 #url: 		'http://localhost:4000'
-#baseurl: 	''
+#baseurl: ''
+#urlimg : 'http://localhost:4000/images/'
 
 # hamid config
 url: 		'http://www.cse.chalmers.se'
@@ -48,7 +49,7 @@ improve_content: https://github.com/ebadi/ChalmersSecurity/edit/gh-pages
 
 
 # Logo size is 600x80 pixels
-logo: "AvancezChalmers_bw_right.png"
+logo: "merged.png"
 
 
 #       ____              _             __  _
