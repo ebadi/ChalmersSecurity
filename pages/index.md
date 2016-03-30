@@ -8,7 +8,7 @@ layout: frontpage
 header:
   image_fullwidth: title.jpg
   background-color: Red
-widget1:
+widget2:
   title: "Programming Language Security"
   url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
@@ -23,11 +23,13 @@ static program  analysis  to enforce  information-flow policies. We
 give  a  structured  view  of  recent  work  in  the  area  and  identify
 some  important open challenges.'
 
-widget2:
+widget1:
   title: "Cryptography and Authentication"
   url: 'cryptography'
   image: 'widget-1-302x182.jpg'
-  text: 'Using cryptography methods to design distance bounding protocols '
+  text: 'Distance bounding protocols are cryptographic protocols that enable a verifier V to establish an upper bound on the physical distance to a prover P. They are based on timing the delay between sending out challenge bits and receiving back the corresponding response bits. The delay time for responses enables V to compute an upper-bound on the distance, as the round trip delay time divided into twice the speed of light. The computation is based on the fact that electro-magnetic waves travel nearly at the speed of light, but cannot travel faster.
+
+Distance bounding protocols can have different applications. For example, when a person conducts a cryptographic identification protocol at an entrance to a building, the access control computer in the building would like to be ensured that the person giving the responses is no more than a few meters away.[[Wikipedia]'
 
 widget3:
   title: "Computer Network Security"

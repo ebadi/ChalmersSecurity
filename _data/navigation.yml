@@ -6,18 +6,18 @@
 #  url: "/ /"
 #  side: right
 
-- title: Research Areas
-  url: "/research/"
-  side: right
-  dropdown:
-  - title: "System Security"
-    url: "/syssecurity/"
-  - title: "Cryptography"
-    url: "/cryptography/"
-  - title: "Software Security"
-    url: "/softawresecurity/"
-  - title: "Privacy"
-    url: "/priavcy/"
+#- title: Research Areas
+#  url: "/research/"
+#  side: right
+#  dropdown:
+#  - title: "System Security"
+#    url: "/syssecurity/"
+#  - title: "Cryptography"
+#    url: "/cryptography/"
+#  - title: "Software Security"
+#    url: "/softwaresecurity/"
+#  - title: "Privacy"
+#    url: "/priavcy/"
 
 - title: "Projects"
   url: "/projects/"
@@ -55,9 +55,6 @@
   url: "/secspec/"
   side: right
 
-- title: "Contact us"
-  url: "/contact/"
-  side: right
 
 #- title: "About"
 #  url: "/about/"
