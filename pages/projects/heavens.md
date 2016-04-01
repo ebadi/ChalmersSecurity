@@ -6,7 +6,7 @@ categories:
     - project
 permalink: "/heavens/"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "title.jpg"
 ---
 Safety is traditionally regarded as one of the most important attributes in the automotive industry. At the same time, security has hardly been addressed, but new generation of vehicles will communicate much more with each other and with their environment.
 However, security and safety are tightly connected, and security threats against vehicles could potentially affect the safety of the human being involved.

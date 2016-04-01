@@ -5,6 +5,8 @@ teaser: "The overall aim of the proposed research program is to develop a framew
 categories:
     - project
 permalink: "/securit/"
+header:
+    image_fullwidth: "title.jpg"
 ---
 The overall aim of the proposed research program is to develop a framework for design of information security solutions, based on identification of challenges encountered and produced by IS solutions in organizations of increasing socio-technical complexity and mobility.
 
