@@ -110,12 +110,14 @@ format: frontpage
               seven high-profile partners. </p>
           </div>
   {% endcapture %}
+
+	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% endif %}
 
-
-  {% assign  title = "Programming Language Security" %}
-  {% assign  url = 'prolangsec' %}
-  {% capture text %} <iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  {% assign  var.widget2.title = "Programming Language Security" %}
+  {% assign  var.widget2.url = 'prolangsec' %}
+  {% capture var.widget2.text %} <iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
     text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
   and   encryption   do   not   directly   address   the   enforcement   of
   information-flow  policies.  Recently,  a  promising  new  approach
@@ -128,9 +130,9 @@ format: frontpage
   some  important open challenges.
   {% endcapture %}
 
-
-		{% include _frontpage-widget.html, title=title, text= text, url=url  %}
-
+	{% if page.widget2.title %}
+		{% include _frontpage-widget.html widget=var.widget2 %}
+	{% endif %}
 
 
 	{% if page.widget3.title %}
