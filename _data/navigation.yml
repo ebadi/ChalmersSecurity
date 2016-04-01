@@ -20,8 +20,7 @@
 #    url: "/priavcy/"
 
 - title: "Projects"
-  url: "/projects/"
-  side: right
+  side: left
   dropdown:
   - title: "DATABIN"
     url: "/databin/"
@@ -38,7 +37,7 @@
 
 - title: News
   url: "/news/"
-  side: right
+  side: left
   dropdown:
   - title: "Archive"
     url: "/news/archive/"
@@ -49,11 +48,11 @@
 
 - title: People
   url: "/people/"
-  side: right
+  side: left
 
 - title: Education
   url: "/secspec/"
-  side: right
+  side: left
 
 
 #- title: "About"

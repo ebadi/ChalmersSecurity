@@ -86,14 +86,51 @@ format: frontpage
 *
 {% endcomment %}
 <div class="row t60">
-	{% if page.widget1.title %}
+
+  {% assign  page.widget1.title = 'Cutting edge research' %}
+  {% capture page.widget1.text %} <div class="span6">
+            <p><a href="http://www.crisalis-project.eu/"> <img
+                  class="logo" src="img/crisalis.png" height="60"></a> <strong><a
+                  href="http://www.crisalis-project.eu/">Crisalis</a></strong>
+              is an EU project on security analysis for critical
+              infrastructures in collaboration with eight academic and
+              industrial partners across Europe. </p>
+            <p><a href="https://www.websand.eu"> <img class="logo"
+                  src="img/websand.png" style="margin-top: 3px;"
+                  height="45" width="200"></a> <strong><a
+                  href="https://www.websand.eu">WebSand</a></strong> is an
+              EU project on server-driven outbound web application
+              sandboxing in collaboration with K.U. Leuven, SAP, Siemens,
+              and U. Passau. </p>
+            <p><a href="http://www.syssec-project.eu/"> <img class="logo"
+                  src="img/syssec.png" height="45"></a> <strong><a
+                  href="http://www.syssec-project.eu/">SysSec</a></strong>
+              is an EU Network of Excellence on Managing Threats and
+              Vulnerabilities in the Future Internet in collaboration with
+              seven high-profile partners. </p>
+          </div>
+  {% endcapture %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
 
 
-	{% if page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
+  {% assign  title = "Programming Language Security" %}
+  {% assign  url = 'prolangsec' %}
+  {% capture text %} <iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+    text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
+  and   encryption   do   not   directly   address   the   enforcement   of
+  information-flow  policies.  Recently,  a  promising  new  approach
+  has  been  developed:  the  use  of  programming-language  tech-
+  niques  for  specifying  and  enforcing  information-flow  policies.
+  In  this  article  we  survey  the  past  three  decades  of  research  on
+  information-flow security, particularly focusing on work that uses
+  static program  analysis  to enforce  information-flow policies. We
+  give  a  structured  view  of  recent  work  in  the  area  and  identify
+  some  important open challenges.
+  {% endcapture %}
+
+
+		{% include _frontpage-widget.html, title=title, text= text, url=url  %}
+
 
 
 	{% if page.widget3.title %}
