@@ -29,7 +29,7 @@ widget3:
 widget4:
   title: "Privacy"
   # image: ' ' 
-  text: 'Differential Privacy, Social Network Privacy'
+  text: 'Differential Privacy, Social Network Privacy, Location Privacy.'
 
 widget5:
   title: "Riccardo & Lindholmen People"

@@ -84,8 +84,7 @@ format: frontpage
             {% endfor %}
         </div><!-- /.medium-5.columns -->
 
-
-        
+       
     </div><!-- /.row -->
     </div>
 {% endunless %}
@@ -126,28 +125,29 @@ format: frontpage
 </div><!-- /.row -->
 
 
-
-
-
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
-
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->
-
 <!-- end second section -->
 
+<!-- project section --><div id="bkg-color2">
+    <div class="row">
+    
+  <div class="medium-6 columns">
+            <h2><strong>List of Projects</strong></h2>
+<ul class="side-nav">
+ <li><a href=" "><strong>DataBin</strong>: Data-Driven Secure Business Intelligence (DataBIN)</a></li>
+ <li><a href="{{ site.url }}{{ site.baseurl }}xxxx"><strong>AppFlow</strong>: Putting Information Flow Control to Work</a></li>
+ <li><a href="{{ site.url }}{{ site.baseurl }}xxxx"><strong>Heavens</strong>: HEAling Vulnerabilities to ENhance Software Security and Safety</a></li>
+</ul>
+  </div><!-- /.medium-7.columns -->
 
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
 
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->
+  <div class="medium-6 columns">
+<ul class="side-nav">
+    <li><a href="{{ site.url }}{{ site.baseurl }}xxxx"><strong>Securit</strong>: Security Culture and Information Technology</a></li>
+ <li><a href="{{ site.url }}{{ site.baseurl }}xxxx"><strong>Sefram</strong>: Security Framework for Vehicles</a></li>
+</ul>
+  </div><!-- /.medium-7.columns -->
+        
+     
+    </div><!-- /.row -->
+    </div>
+<!-- end project section -->
