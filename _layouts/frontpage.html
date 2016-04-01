@@ -59,11 +59,24 @@ format: frontpage
     </div> -->
 
 
+
+<!-- first section -->
+
+<div id="bkg-color2">
     <div class="row">
+    
+    <!-- left part -->
+  <div class="medium-6 columns">
+            <h2><strong>{{ site.data.language.news_headline }}</strong></h2>
+            {% include list-posts entries='2' offset='1' %}
+  </div><!-- /.medium-7.columns -->
+        
+    <!-- right part -->
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
 <!--            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %} -->
-            <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+                <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
@@ -72,13 +85,15 @@ format: frontpage
         </div><!-- /.medium-5.columns -->
 
 
-        <div class="medium-6 columns">
-            <h2><strong>{{ site.data.language.news_headline }}</strong></h2>
-            {% include list-posts entries='2' offset='1' %}
-        </div><!-- /.medium-7.columns -->
+        
     </div><!-- /.row -->
+    </div>
 {% endunless %}
+<!-- end first section -->
 
+
+
+<!-- second section -->
 
 {% comment %}
 *
@@ -86,62 +101,45 @@ format: frontpage
 *
 {% endcomment %}
 <div class="row t60">
-
-  {% assign  page.widget1.title = 'Cutting edge research' %}
-  {% capture page.widget1.text %} <div class="span6">
-            <p><a href="http://www.crisalis-project.eu/"> <img
-                  class="logo" src="img/crisalis.png" height="60"></a> <strong><a
-                  href="http://www.crisalis-project.eu/">Crisalis</a></strong>
-              is an EU project on security analysis for critical
-              infrastructures in collaboration with eight academic and
-              industrial partners across Europe. </p>
-            <p><a href="https://www.websand.eu"> <img class="logo"
-                  src="img/websand.png" style="margin-top: 3px;"
-                  height="45" width="200"></a> <strong><a
-                  href="https://www.websand.eu">WebSand</a></strong> is an
-              EU project on server-driven outbound web application
-              sandboxing in collaboration with K.U. Leuven, SAP, Siemens,
-              and U. Passau. </p>
-            <p><a href="http://www.syssec-project.eu/"> <img class="logo"
-                  src="img/syssec.png" height="45"></a> <strong><a
-                  href="http://www.syssec-project.eu/">SysSec</a></strong>
-              is an EU Network of Excellence on Managing Threats and
-              Vulnerabilities in the Future Internet in collaboration with
-              seven high-profile partners. </p>
-          </div>
-  {% endcapture %}
-
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
 
-  {% assign  var.widget2.title = "Programming Language Security" %}
-  {% assign  var.widget2.url = 'prolangsec' %}
-  {% capture var.widget2.text %} <iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-    text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
-  and   encryption   do   not   directly   address   the   enforcement   of
-  information-flow  policies.  Recently,  a  promising  new  approach
-  has  been  developed:  the  use  of  programming-language  tech-
-  niques  for  specifying  and  enforcing  information-flow  policies.
-  In  this  article  we  survey  the  past  three  decades  of  research  on
-  information-flow security, particularly focusing on work that uses
-  static program  analysis  to enforce  information-flow policies. We
-  give  a  structured  view  of  recent  work  in  the  area  and  identify
-  some  important open challenges.
-  {% endcapture %}
 
 	{% if page.widget2.title %}
-		{% include _frontpage-widget.html widget=var.widget2 %}
+		{% include _frontpage-widget.html widget=page.widget2 %}
 	{% endif %}
 
 
 	{% if page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
+	
+	{% if page.widget4.title %}
+		{% include _frontpage-widget.html widget=page.widget4 %}
+	{% endif %}
+	
+	{% if page.widget5.title %}
+		{% include _frontpage-widget.html widget=page.widget5 %}
+	{% endif %}
+
 </div><!-- /.row -->
 
 
 
+
+
+{% comment %}
+*
+* Finally, if there is content, spit it out.
+*
+{% endcomment %}
+
+<div class="row">
+    {{ content }}
+</div><!-- /.row -->
+
+<!-- end second section -->
 
 
 {% comment %}

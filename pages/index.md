@@ -8,52 +8,34 @@ layout: frontpage
 header:
   image_fullwidth: title.jpg
   background-color: Red
+widget1:
+  title: "Cryptography"
+  # image: ' ' 
+  text: 'Homomorphic Encryption, Multi-Key Homomorphic Signature and MACs, Anonymous (Server-Aided Verification of) Signatures.'
+
 widget2:
-  title: "Programming Language Security"
+  title: "Software Security"
   url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: 'Programming Language Security is using programming techniques to enforce security and privacy features. As an example enforcement of information-flow  policies. Conventional   security   mechanisms   such   as   access   control
-and   encryption   do   not   directly   address   the   enforcement   of
-information-flow  policies.  Recently,  a  promising  new  approach
-has  been  developed:  the  use  of  programming-language  tech-
-niques  for  specifying  and  enforcing  information-flow  policies.
-In  this  article  we  survey  the  past  three  decades  of  research  on
-information-flow security, particularly focusing on work that uses
-static program  analysis  to enforce  information-flow policies. We
-give  a  structured  view  of  recent  work  in  the  area  and  identify
-some  important open challenges.'
+  text: 'enforcement of information-flow  policies, static program  analysis.'
 
-widget1:
-  title: "Cutting edge research"
-  image: 'widget-1-302x182.jpg'
-  text: '        <div class="span6">
-          <h2></h2>
-          <p><a href="http://www.crisalis-project.eu/"> <img
-                class="logo" src="img/crisalis.png" height="60"></a> <strong><a
-                href="http://www.crisalis-project.eu/">Crisalis</a></strong>
-            is an EU project on security analysis for critical
-            infrastructures in collaboration with eight academic and
-            industrial partners across Europe. </p>
-          <p><a href="https://www.websand.eu"> <img class="logo"
-                src="img/websand.png" style="margin-top: 3px;"
-                height="45" width="200"></a> <strong><a
-                href="https://www.websand.eu">WebSand</a></strong> is an
-            EU project on server-driven outbound web application
-            sandboxing in collaboration with K.U. Leuven, SAP, Siemens,
-            and U. Passau. </p>
-          <p><a href="http://www.syssec-project.eu/"> <img class="logo"
-                src="img/syssec.png" height="45"></a> <strong><a
-                href="http://www.syssec-project.eu/">SysSec</a></strong>
-            is an EU Network of Excellence on Managing Threats and
-            Vulnerabilities in the Future Internet in collaboration with
-            seven high-profile partners. </p>
-        </div>'
 
 widget3:
-  title: "Computer Network Security"
+  title: "Network Security"
   url: 'network security'
   video: '<iframe src="https://player.vimeo.com/video/56874383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: 'Why is it possible to break into networked applications and computer systems? What weaknesses are used? And what makes one protocol more secure than another? This course answers these questions and many more. We look at weaknesses that have plagued wired and wireless networked systems for years and investigate the security of countermeasures like firewalls and security protocols such as SSL, SSH and IPsec. Knowledge about possible threats and countermeasures is important for understanding what level of security a system and an application can offer. '
+  text: 'firewalls, security protocols such as SSL, SSH and IPsec.'
+
+widget4:
+  title: "Privacy"
+  # image: ' ' 
+  text: 'Differential Privacy, Social Network Privacy'
+
+widget5:
+  title: "Riccardo & Lindholmen People"
+  # image: ' ' 
+  text: 'Differential Privacy, Social Network Privacy'
+
 #
 # Use the call for action to show a button on the frontpage
 #
