@@ -10,31 +10,47 @@ header:
   background-color: Red
 widget1:
   title: "Cryptography"
-  # image: ' ' 
-  text: 'Homomorphic Encryption, Multi-Key Homomorphic Signature and MACs, Anonymous (Server-Aided Verification of) Signatures.'
+  # image: ' '
+  text: '<ul>
+  <li>Homomorphic Encryption</li>
+  <li>Multi-Key Homomorphic Signature and MACs</li>
+  <li>Anonymous (Server-Aided Verification of) Signatures</li>
+  </ul>'
 
 widget2:
   title: "Software Security"
   url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: 'enforcement of information-flow  policies, static program  analysis.'
+  text: '<ul>
+  <li>Enforcement of information-flow  policies</li>
+  <li>Static program  analysis.</li>
+  </ul>'
 
 
 widget3:
   title: "Network Security"
   url: 'network security'
   video: '<iframe src="https://player.vimeo.com/video/56874383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: 'firewalls, security protocols such as SSL, SSH and IPsec.'
+  text: '<ul>
+  <li>Firewalls</li>
+  <li>Security protocols (SSL, SSH and IPsec)</li>
+  </ul>'
 
 widget4:
   title: "Privacy"
-  # image: ' ' 
-  text: 'Differential Privacy, Social Network Privacy, Location Privacy.'
+  # image: ' '
+  text: '<ul>
+  <li>Differential Privacy </li>
+  <li>Social Network Privacy</li>
+  <li>Location Privacy</li>
+  </ul>'
 
 widget5:
   title: "Riccardo & Lindholmen People"
-  # image: ' ' 
-  text: 'Differential Privacy, Social Network Privacy'
+  # image: ' '
+  text: '</ul>
+  <li>Magic</li>
+  <ul>'
 
 #
 # Use the call for action to show a button on the frontpage
