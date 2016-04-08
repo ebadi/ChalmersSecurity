@@ -6,7 +6,7 @@ cid : buiras  # please also add images/people/CID.
 pic: buiras.jpg
 permalink: "/buiras/"
 
-categories: people
+categories: poeple
 
 ## choose : phd, postdoc, professor or former-member
 tags:

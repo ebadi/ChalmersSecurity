@@ -5,15 +5,19 @@ permalink: "/people/"
 header:
    image_fullwidth: title.jpg
 ---
-
+{% for cat in site.category-list %}
 <div class="posts clearfix">
+<h1>{{ cat }}</h1>
+<ul>
   {% for page in site.pages %}
-  {% if page.categories contains "people"  %}
-
-    {% if page.website contains  'http' %}
+      {% for pc in page.tags %}
+        {% if pc == cat %}
+          
+          
+          {% if page.website contains  'http' %}
       {% assign ws =  page.website %}
     {% else %}
-      {% capture ws %}http://cse.chalmers.se/~{{ page.cid }}{% endcapture %}
+      {% capture ws %}http://www.cse.chalmers.se/~{{ page.cid }}{% endcapture %}
     {% endif %}
 
     {% if page.email contains  '@' %}
@@ -45,7 +49,13 @@ header:
       {% if page.googlescholar %}<a href="{{ page.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
     </p>
 
-    </article>
-  {% endif %}
-  {% endfor %}
+    </article>      
+          
+        {% endif %}   <!-- cat-match-p -->
+      {% endfor %}  <!-- page-category -->
+  {% endfor %}  <!-- page -->
+
+</ul>
 </div>
+{% endfor %}  <!-- cat -->
+
