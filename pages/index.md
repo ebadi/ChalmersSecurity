@@ -49,11 +49,12 @@ widget4:
   </ul>'
 
 widget5:
-  title: "Riccardo & Lindholmen People"
+  title: "Modeling Security Threads"
   url: 'riccardo'
   # image: ' '
   text: '</ul>
-  <li>Magic</li>
+  <li>Privacy threat modeling</li>
+  <li>Vulnerability prediction</li>
   <ul>'
 
 #
