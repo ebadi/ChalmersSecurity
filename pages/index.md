@@ -8,8 +8,10 @@ layout: frontpage
 header:
   image_fullwidth: title.jpg
   background-color: Red
+  
 widget1:
   title: "Cryptography"
+  url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
   # image: ' '
   text: '<ul>
   <li>Homomorphic Encryption</li>
