@@ -12,5 +12,5 @@ categories: people
 tags:
     - professor
 website: http://www.cse.chalmers.se/~gersch/
-
+publications: http://www.cse.chalmers.se/~gersch/publication.html
 ---
