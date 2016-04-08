@@ -31,7 +31,7 @@ widget2:
 
 widget3:
   title: "Network Security"
-  url: 'network security'
+  url: 'netsec'
   video: '<iframe src="https://player.vimeo.com/video/56874383" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   text: '<ul>
   <li>Firewalls</li>
@@ -40,6 +40,7 @@ widget3:
 
 widget4:
   title: "Privacy"
+  url: 'privacy'
   # image: ' '
   text: '<ul>
   <li>Differential Privacy </li>
@@ -48,10 +49,12 @@ widget4:
   </ul>'
 
 widget5:
-  title: "Riccardo & Lindholmen People"
+  title: "Modeling Security Threads"
+  url: 'riccardo'
   # image: ' '
   text: '</ul>
-  <li>Magic</li>
+  <li>Privacy threat modeling</li>
+  <li>Vulnerability prediction</li>
   <ul>'
 
 #
