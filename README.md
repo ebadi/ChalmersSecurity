@@ -24,14 +24,8 @@ GU logo are taken from : [gu-logo]
    [academicons]:<https://www.researchgate.net/press>
    [FortAwesome]:<https://www.researchgate.net/press>
    [gu-logo]:<http://bildbank.gu.se/logotyperochmallar/>
-
-
-### Road map
-
-     - better user profiles listing
-
+   [homepage]:<https://pixabay.com/en/photos/?image_type=&cat=&min_width=&min_height=&q=privacy&order=/>
+   [homepage]:<https://pixabay.com/en/censorship-limitations-610101/>
 ### TO DO
-
-     - create template files in git
-
-     - fixing header & logo
+     - databin project website
+     - space between user profiles

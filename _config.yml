@@ -28,14 +28,14 @@ category-list: [professor, postdoc, phd, former-member]
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-#url: 		'http://localhost:4000'
-#baseurl: ''
-#urlimg : 'http://localhost:4000/images/'
+url: 		'http://localhost:4000'
+baseurl: ''
+urlimg : 'http://localhost:4000/images/'
 
 # hamid config
-url: 		'http://www.cse.chalmers.se'
-baseurl: 	'/~hamide/ChalmersSecurity'
-urlimg: 	'http://www.cse.chalmers.se/~hamide/ChalmersSecurity/images/'
+#url: 		'http://www.cse.chalmers.se'
+#baseurl: 	'/~hamide/ChalmersSecurity'
+#urlimg: 	'http://www.cse.chalmers.se/~hamide/ChalmersSecurity/images/'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.

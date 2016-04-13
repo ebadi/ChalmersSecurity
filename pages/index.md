@@ -8,11 +8,11 @@ layout: frontpage
 header:
   image_fullwidth: title.jpg
   background-color: Red
-  
+
 widget1:
   title: "Cryptography"
   url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
-  # image: ' '
+  image: 'lock.jpg'
   text: '<ul>
   <li>Homomorphic Encryption</li>
   <li>Multi-Key Homomorphic Signature and MACs</li>
@@ -41,7 +41,7 @@ widget3:
 widget4:
   title: "Privacy"
   url: 'privacy'
-  # image: ' '
+  image: 'privacy.jpg'
   text: '<ul>
   <li>Differential Privacy </li>
   <li>Social Network Privacy</li>
@@ -49,9 +49,9 @@ widget4:
   </ul>'
 
 widget5:
-  title: "Modeling Security Threads"
+  title: "Modeling Security Threats"
   url: 'riccardo'
-  # image: ' '
+  image: 'threat.jpg'
   text: '</ul>
   <li>Privacy threat modeling</li>
   <li>Vulnerability prediction</li>
