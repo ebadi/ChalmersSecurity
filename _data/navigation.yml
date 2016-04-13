@@ -22,17 +22,30 @@
 - title: "Projects"
   side: left
   dropdown:
-  - title: "DATABIN"
-    url: "/databin/"
+  - title: "DataBin"
+    url: "https://research.chalmers.se/en/project/6221"
   - title: "AppFlow"
-    url: "/appflow/"
+    url: "https://research.chalmers.se/en/project/6231"
   - title: "Heavens"
-    url: "/heavens/"
+    url: "https://research.chalmers.se/en/project/5809"
   - title: "Securit"
-    url: "/securit/"
+    url: "http://www.foi.se/en/Our-Knowledge/Information-Security-and-Communication/Information-Security/Projects/SECURIT/"
   - title: "SeFram"
-    url: "/sefram/"
-
+    url: "https://research.chalmers.se/en/project/6225"
+  - title: "PRECIS"
+    url: "https://research.chalmers.se/en/project/6237"
+  - title: "SwissSenseSynergy"
+    url: "https://research.chalmers.se/en/project/6257"
+  - title: "BEAT"
+    url: "https://research.chalmers.se/en/project/6239"
+  - title: "PriSecIoT"
+    url: "https://www.chalmers.se/sv/projekt/Sidor/FIoT.aspx"
+  - title: "SEAFRONT"
+    url: "https://www.chalmers.se/sv/projekt/Sidor/SEAFRONT.aspx"
+  - title: "CRYPTACUS"
+    url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
+  - title: "PPIDR"
+    url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
 
 
 - title: News

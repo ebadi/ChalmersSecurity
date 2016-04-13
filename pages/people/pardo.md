@@ -11,5 +11,4 @@ breadcrumb: true
 categories: people
 tags:
     - phd
-website: http://www.cse.chalmers.se/~pardo/
 ---
