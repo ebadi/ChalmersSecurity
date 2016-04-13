@@ -23,7 +23,7 @@
   side: left
   dropdown:
   - title: "DataBin"
-    url: "https://research.chalmers.se/en/project/6221"
+    url: "http://www.cse.chalmers.se/research/databin/"
   - title: "AppFlow"
     url: "https://research.chalmers.se/en/project/6231"
   - title: "Heavens"
