@@ -8,7 +8,12 @@ header:
 {% for cat in site.category-list %}
 <div class="posts clearfix">
   <div id="bkg-color3">
-                        <h1>  <center> {{ cat }}</center> </h1>
+                        <h1>  <center>
+                          {% if cat  =='phd' %} PhD Stuednts  {% endif %}
+                          {% if cat  =='former-member' %} Formal members  {% endif %}
+                          {% if cat  =='postdoc' %} Postdoc researchers  {% endif %}
+                          {% if cat  =='professor' %} Professors  {% endif %}
+                        </center> </h1>
   </div>
 <ul>
   {% for page in site.pages %}
