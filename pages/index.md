@@ -9,6 +9,9 @@ header:
   image_fullwidth: title.jpg
   background-color: Red
 
+
+# lexical order
+
 widget1:
   title: "Cryptography"
   url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
@@ -19,15 +22,15 @@ widget1:
   <li>Anonymous (Server-Aided Verification of) Signatures</li>
   </ul>'
 
-widget2:
-  title: "Software Security"
-  url: 'prolangsec'
-  video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-  text: '<ul>
-  <li>Enforcement of information-flow  policies</li>
-  <li>Static program  analysis.</li>
-  </ul>'
 
+widget2:
+  title: "Modeling Security Threats"
+  url: 'riccardo'
+  image: 'threat.jpg'
+  text: '</ul>
+  <li>Privacy threat modeling</li>
+  <li>Vulnerability prediction</li>
+  <ul>'
 
 widget3:
   title: "Network Security"
@@ -49,13 +52,13 @@ widget4:
   </ul>'
 
 widget5:
-  title: "Modeling Security Threats"
-  url: 'riccardo'
-  image: 'threat.jpg'
-  text: '</ul>
-  <li>Privacy threat modeling</li>
-  <li>Vulnerability prediction</li>
-  <ul>'
+  title: "Software Security"
+  url: 'prolangsec'
+  video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  text: '<ul>
+  <li>Information flow control</li>
+  <li>Static program  analysis</li>
+  </ul>'
 
 #
 # Use the call for action to show a button on the frontpage

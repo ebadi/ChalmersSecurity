@@ -19,6 +19,15 @@
 #  - title: "Privacy"
 #    url: "/priavcy/"
 
+
+- title: News
+  url: "/news/"
+  side: left
+
+- title: Education
+  url: "/secspec/"
+  side: left
+
 - title: "Projects"
   url: "https://research.chalmers.se"
   side: left
@@ -49,9 +58,6 @@
     url: "http://www.cse.chalmers.se/~aikmitr/Projects.html"
 
 
-- title: News
-  url: "/news/"
-  side: left
 
 #- title: Publications
 #  url: "/publications/"
@@ -61,9 +67,7 @@
   url: "/people/"
   side: left
 
-- title: Education
-  url: "/secspec/"
-  side: left
+
 
 
 #- title: "About"
