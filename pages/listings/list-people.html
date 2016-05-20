@@ -7,13 +7,15 @@ header:
 ---
 {% for cat in site.category-list %}
 <div class="posts clearfix">
-<h1>{{ cat }}</h1>
+  <div id="bkg-color3">
+                        <h1>  <center> {{ cat }}</center> </h1>
+  </div>
 <ul>
   {% for page in site.pages %}
       {% for pc in page.tags %}
         {% if pc == cat %}
-          
-          
+
+
           {% if page.website contains  'http' %}
       {% assign ws =  page.website %}
     {% else %}
@@ -49,8 +51,8 @@ header:
       {% if page.googlescholar %}<a href="{{ page.googlescholar }}"><img  src="{{ site.url }}{{ site.baseurl }}/assets/icons/icon-googlescholar.png" width="50" height="50"></a>{% endif %}
     </p>
 
-    </article>      
-          
+    </article>
+
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
   {% endfor %}  <!-- page -->
@@ -58,4 +60,3 @@ header:
 </ul>
 </div>
 {% endfor %}  <!-- cat -->
-
