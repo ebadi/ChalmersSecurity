@@ -11,4 +11,11 @@ breadcrumb: true
 categories: people
 tags:
     - phd
+
+address: "Rännvägen 6, Room: 5447, 5th floor (EDIT-building) - Department of Computer Science and Engineering, Chalmers University of Technology, 412-96, Gothenburg, Sweden"
+linkedin: "https://se.linkedin.com/in/raulpardojimenez"
+github: "https://github.com/raulpardo"
+researchgate: "https://www.researchgate.net/profile/Raul_Pardo"
+googlescholar: "https://scholar.google.se/citations?user=WRuI72kAAAAJ&hl=en"
+
 ---
