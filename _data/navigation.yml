@@ -34,7 +34,7 @@
     url: "https://research.chalmers.se/en/project/6225"
   - title: "PRECIS"
     url: "https://research.chalmers.se/en/project/6237"
-  - title: "SwissSenseSynergy"
+  - title: "Swiss Sense Synergy"
     url: "https://research.chalmers.se/en/project/6257"
   - title: "BEAT"
     url: "https://research.chalmers.se/en/project/6239"
@@ -51,9 +51,6 @@
 - title: News
   url: "/news/"
   side: left
-  dropdown:
-  - title: "Archive"
-    url: "/news/archive/"
 
 #- title: Publications
 #  url: "/publications/"

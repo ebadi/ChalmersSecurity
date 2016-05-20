@@ -67,7 +67,7 @@ format: frontpage
 
     <!-- left part -->
   <div class="medium-6 columns">
-            <h2>{{ site.data.language.news_headline }}</h2>
+            <h2><strong>{{ site.data.language.news_headline }}</strong></h2>
             {% include list-posts entries='2' offset='1' %}
   </div><!-- /.medium-7.columns -->
 
@@ -123,15 +123,19 @@ format: frontpage
 	{% endif %}
 
 </div><!-- /.row -->
-
-
 <!-- end second section -->
 
-<!-- project section --><div id="bkg-color2">
+
+<div id="bkg-color3">
+                        <center><h2><strong>List of Projects</strong></h2></center>
+</div>
+
+
+<!-- project section -->
+<div id="bkg-color2">
     <div class="row">
 
   <div class="medium-6 columns">
-            <h2>List of Projects</h2>
 <ul class="side-nav">
  <li><a href="https://research.chalmers.se/en/project/6221"><strong>DataBin</strong>: Data-Driven Secure Business Intelligence (DataBIN)</a></li>
  <li><a href="https://research.chalmers.se/en/project/6231"><strong>AppFlow</strong>: Putting Information Flow Control to Work</a></li>
@@ -147,7 +151,6 @@ format: frontpage
 
   <div class="medium-6 columns">
 <ul class="side-nav">
-  <br>
  <li><a href="https://research.chalmers.se/en/project/6239"><strong>BEAT</strong>: Biometric Evaluation and Testing</a></li>
  <li><a href="https://www.chalmers.se/sv/projekt/Sidor/FIoT.aspx"><strong>PriSecIoT</strong>: Security and Privacy for the Future Internet of Things</a></li>
  <li><a href="https://www.chalmers.se/sv/projekt/Sidor/SEAFRONT.aspx"><strong>SEAFRONT</strong>: Secure, Private, Fast and Reliable Wireless Communications</a></li>
