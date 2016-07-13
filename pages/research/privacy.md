@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "Privacy"
-teaser: "EDIT ME "
+teaser: "EDIT ME"
 permalink: "/privacy/"
 categories:
     - project
 
 ---
 
-edit me please
+Please edit me and add some content
