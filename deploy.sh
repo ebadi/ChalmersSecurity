@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # http://www.linuxandlife.com/2012/09/how-to-create-simple-text-image-with.html
-convert -size 1200x120 xc:transparent -font Palatino-Bold -pointsize 82 -fill white -draw "text 40,85 'Chalmers Security Group'" assets/img/logo.png
+convert -size 1200x120 xc:transparent -font Palatino-Bold -pointsize 82 -fill white -draw "text 40,85 'Chalmers Security Lab'" assets/img/logo.png
 bundle exec jekyll build --config _config.yml 
 
 

@@ -1,5 +1,5 @@
 ### How to add content
-Please read this [instruction](HOWTO.md) on how to add a new content.
+Please read this [instruction](HOWTO.md) on how to add a new content and [installation](INSTALL.md) on how to install the system
 
 ### Copyrighted Material
 While the source code for this website is under MIT LICENSE, the content is copyrighted. Please contact us if you decided to use the following contents.

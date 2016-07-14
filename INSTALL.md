@@ -6,9 +6,10 @@ After cloning the repository and installing needed packages , you can see the si
 $ git clone git@github.com:ebadi/ChalmersSecurity.git
 $ cd ChalmersSecurity
 $ bundle install
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --config local_config.yml
+$ bundle exec jekyll serve // for using _config.yml
 ```
-Server address: http://127.0.0.1:4000/
+Server address: http://127.0.0.1:4000/research/group/security/
 
 ### jekyll
 If jeykell is not installed, you can install it using your package manager but if the version of jeykell is not compatible with this project you can [install it using RubyGems][jekyll-install].
