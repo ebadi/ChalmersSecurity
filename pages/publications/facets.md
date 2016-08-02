@@ -5,4 +5,6 @@ teaser: "Full version and implementation"
 permalink: "/facets/"
 ---
 
-[DroidFace](droidface.tar.xz)
+[Esorics publication](/research/group/security/publications/2016/facets/esorics-full.pdf)
+
+[DroidFace](/research/group/security/publications/2016/facets/droidface.tar.xz)
