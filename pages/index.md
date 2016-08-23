@@ -24,12 +24,12 @@ widget1:
 
 
 widget2:
-  title: "Modeling Security Threats"
-  url: 'riccardo'
+  title: "Secure Software Engineering"
+  url: 'http://www.scandariato.eu'
   image: 'threat.jpg'
   text: '</ul>
-  <li>Privacy threat modeling</li>
-  <li>Vulnerability prediction</li>
+  <li>Security and Privacy by design</li>
+  <li>Empirical methods for security</li>
   <ul>'
 
 widget3:

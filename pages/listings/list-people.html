@@ -10,13 +10,14 @@ header:
   <div id="bkg-color3">
                         <h1>  <center>
                           {% if cat  =='phd' %} PhD Stuednts  {% endif %}
-                          {% if cat  =='former-member' %} Formal members  {% endif %}
+
                           {% if cat  =='postdoc' %} Postdoc researchers  {% endif %}
-                          {% if cat  =='professor' %} Professors  {% endif %}
+                          {% if cat  =='professor' %} Faculty  {% endif %}
                         </center> </h1>
   </div>
 <ul>
-  {% for page in site.pages %}
+  {% assign sorted_pages = (site.pages | sort: 'fname') %}
+  {% for page in  sorted_pages %}
       {% for pc in page.tags %}
         {% if pc == cat %}
 
@@ -27,11 +28,7 @@ header:
       {% capture ws %}http://www.cse.chalmers.se/~{{ page.cid }}{% endcapture %}
     {% endif %}
 
-    {% if page.email contains  '@' %}
-      {% assign em =  page.email %}
-    {% else %}
-      {% capture em %}{{ page.cid }}@chalmers.se{% endcapture %}
-    {% endif %}
+
 
     {% if page.publications contains  'http' %}
       {% assign pub =  page.publications %}
