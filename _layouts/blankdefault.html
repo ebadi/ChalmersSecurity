@@ -12,7 +12,10 @@ layout: compress
 	{% include _navigation.html %}
 	{% endunless %}
 
+	<div class='content'>
 	{{ content }}
+	<div class="push"></div>
+	</div>
 
 	{% unless page.skip_boilerplate %}
 	<div class="alwaysbottomfooter">

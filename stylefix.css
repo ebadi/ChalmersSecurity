@@ -1,11 +1,10 @@
-body {
-  min-height: 100%;
+.content {
+	min-height: 100%;
+	margin: 0 auto -233px;
 }
 
-.alwaysbottomfooter {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+.push, .alwaysbottomfooter {
+	height: 233px;
 }
 
 .abstract {
