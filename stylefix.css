@@ -1,0 +1,16 @@
+body {
+  min-height: 100%;
+}
+
+.alwaysbottomfooter {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.abstract {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid blue;
+    width: 70%;
+}
