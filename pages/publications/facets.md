@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
 header:
    image_fullwidth: title.jpg
+title: "We are Family: Relating Information-Flow Trackers"
+teaser: "Prototype implementation"
 title: "Let's Face It: Faceted Values for Taint Tracking"
 teaser: "Full version and implementation"
 permalink: "/facets/"
