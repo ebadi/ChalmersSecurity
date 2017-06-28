@@ -11,3 +11,5 @@ permalink: "/family/"
 We are Family: Relating Information-Flow Trackers 
 [Prototype implementation](/research/group/security/publications/2017/family/implementation.tar.xz)
 
+[Extended version](/research/group/security/publications/2017/family/esorics17full.pdf)
+
