@@ -32,6 +32,8 @@
   url: "https://research.chalmers.se"
   side: left
   dropdown:
+  - title: "PolUser"
+    url: "http://www.cse.chalmers.se/~gersch/"
   - title: "DataBin"
     url: "http://www.cse.chalmers.se/research/databin/"
   - title: "AppFlow"

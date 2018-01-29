@@ -10,7 +10,7 @@ breadcrumb: true
 ## choose one : phd, postdoc, professor or former-member
 categories: people
 tags:
-    - postdoc
+    - former-member
 telephone: +463177...
 address: "Rännvägen 6 ..."
 ## linkedin: "https://www.linkedin.com/..."
