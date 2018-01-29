@@ -56,8 +56,8 @@ widget5:
   url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   text: '<ul>
-  <li>Information flow control</li>
-  <li>Static program  analysis</li>
+  <li>Web Security</li>
+  <li>Security Foundations</li>
   </ul>'
 
 #
