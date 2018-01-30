@@ -32,6 +32,8 @@
   url: "https://research.chalmers.se"
   side: left
   dropdown:
+  - title: "RICS"
+    url: "https://research.chalmers.se/project/6438"
   - title: "PolUser"
     url: "http://www.cse.chalmers.se/~gersch/"
   - title: "DataBin"
