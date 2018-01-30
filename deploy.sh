@@ -4,8 +4,8 @@ convert -size 1200x120 xc:transparent -font Palatino-Bold -pointsize 82 -fill wh
 bundle exec jekyll build --config _config.yml 
 
 
-RHOST=hamide@remote11.chalmers.se
+RHOST=elenap@remote11.chalmers.se
 RPATH=/chalmers/groups/security/www/www.cse.chalmers.se
-rsync -priv --delete --chmod=F664,D775 --checksum $* \
+rsync -priv --delete --checksum $* \
   _site/ \
   ${RHOST}:${RPATH}
