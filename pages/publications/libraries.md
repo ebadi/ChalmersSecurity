@@ -10,6 +10,7 @@ permalink: "/libraries/"
 
 by [Daniel Hedin], [Alexander Sjösten], [Frank Piessens], and [Andrei Sabelfeld].
 
+[DOI][DOI]
 [short version PDF](/research/group/security/publications/2017/libraries/post-17.pdf),
 [full version PDF](/research/group/security/publications/2017/libraries/post-17-full.pdf)
 
@@ -43,4 +44,4 @@ to the security condition of noninterference.
 [Alexander Sjösten]: http://www.cse.chalmers.se/~sjosten
 [Frank Piessens]: https://distrinet.cs.kuleuven.be/people/frank
 [Andrei Sabelfeld]: http://www.cse.chalmers.se/~andrei
-
+[DOI]: https://doi.org/10.1007/978-3-662-54455-6_3
