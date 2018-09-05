@@ -32,8 +32,16 @@
   url: "https://research.chalmers.se"
   side: left
   dropdown:
+  - title: "UNITED-GRID"
+    url: "https://research.chalmers.se/project/7801"
+  - title: "DecentLP"
+    url: "https://research.chalmers.se/project/6238"
   - title: "RICS"
     url: "https://research.chalmers.se/project/6438"
+  - title: "PROSECUTOR"
+    url: "https://research.chalmers.se/project/5376"
+  - title: "FlexCSP"
+    url: "https://research.chalmers.se/project/7125"
   - title: "PolUser"
     url: "http://www.cse.chalmers.se/~gersch/"
   - title: "DataBin"
