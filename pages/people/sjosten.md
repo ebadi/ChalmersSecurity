@@ -3,7 +3,7 @@ layout: people
 fname: "Alexander"
 lname: "Sjösten"
 cid : "sjosten"  # for creating email/web addresss
-pic: sjosten.jpg
+pic: placeholder.png
 permalink: "/sjosten/" # use the same as previous line here
 breadcrumb: true
 categories: people

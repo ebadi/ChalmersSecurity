@@ -3,7 +3,7 @@ layout: people
 fname: "Boel"
 lname: "Nelson"
 cid : "boeln"  # for creating email/web addresss
-pic: boeln.jpg
+pic: placeholder.png
 permalink: "/boeln/" # use the same as previous line here
 teaser: "I am a PhD student in the Computer Science and Engineering Department in the Network and Systems Division at Chalmers University of Technology since July 2015."
 breadcrumb: true

@@ -51,7 +51,7 @@ widget4:
   <li>Location Privacy</li>
   </ul>'
 
-widget5:
+widget6:
   title: "Software Security"
   url: 'prolangsec'
   video: '<iframe src="https://player.vimeo.com/video/82206652" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
@@ -60,6 +60,12 @@ widget5:
   <li>Security Foundations</li>
   </ul>'
 
+
+widget5:
+  title: "Our two Campuses"
+  url: "campus"
+  video: '<iframe src="https://player.vimeo.com/video/171066926" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  text: 'Chalmers has two large campuses in Gothenburg, campus Johanneberg and Lindholmen.'
 #
 # Use the call for action to show a button on the frontpage
 #
